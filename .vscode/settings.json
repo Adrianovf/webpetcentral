@@ -3,7 +3,7 @@
       {
         "match": ".*",
         "command": "bash",
-        "args": ["C:/xampp/htdocs/webpetcentral/auto_pull.sh"]
+        "args": ["C:/xampp/htdocs/webpetcentral/.vscode/auto_pull.sh"]
       }
     ]
   }
