@@ -1,0 +1,10 @@
+{
+    "runOnSave.commands": [
+      {
+        "match": ".*",
+        "command": "bash",
+        "args": ["C:/xampp/htdocs/webpetcentral/auto_pull.sh"]
+      }
+    ]
+  }
+  
