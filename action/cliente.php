@@ -10,7 +10,7 @@ $email = isset($_POST['email']) ? $_POST['email'] : '';
 $senha = isset($_POST['senha']) ? $_POST['senha'] : '';
 $set = isset($_POST['set']) ? $_POST['set'] : '';
 
-$codigo = isset($_GET['cpf']) ? $_GET['cpf'] : '';
+$cpf = isset($_GET['cpf']) ? $_GET['cpf'] : '';
 
 if ($set == 'ad') {
     $pdo_insere = $conexao_pdo->prepare('INSERT INTO clientes
