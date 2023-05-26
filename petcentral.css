@@ -95,7 +95,6 @@ h3{
 }
 
 
-
 #coluna{
 	width: 180px;
 	height: auto;
@@ -114,7 +113,7 @@ h3{
   z-index: 1;
   color: #090909;
   padding: 0.7em 1.7em;
-  font-size: 15px;
+  font-size: 14px;
   border-radius: 0.5em;
   background: rgba(52, 177, 182, 0.376);
   border: 1px solid #e8e8e8;
@@ -126,7 +125,7 @@ h3{
 .botao:active {
   color: #667;
   box-shadow: inset 4px 4px 12px #c5c5c5,
-             inset -4px -4px 12px #ffffff;
+              inset -4px -4px 12px #ffffff;
 }
 
 .botao:before {
@@ -477,9 +476,9 @@ h3{
   transform: translateX( 700px );
   background-image: url(img/gatoreal1.jpg);
   
+  
   animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
 }
-
 
 .card_part.card_part-two {
   z-index: 6;
@@ -498,7 +497,6 @@ h3{
   background-image: url(img/cachorroreal2.jpg);
   animation-delay: 21s;
 }
-
 
 @keyframes opaqTransition {
   3% { transform: translateX( 0 ); }
