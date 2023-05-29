@@ -432,22 +432,21 @@ h3{
     left: 470px;
   }
 
-  /* formatação do slide de animais */
 
+  /* formatação do slide de animais */
 .card {
   position: relative;
-  margin-left: 500px;
+  margin-left: 200px;
   margin-top: 30px;
-  
-  width: 800px;
-  height: 500px;
+  width: 1500px;
+  height: 300px;
   overflow: hidden;
 
   border-radius: 5px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-/*Light blue cover above the slide show*/
+
 .card::after {
   content: '';
   position: absolute;
@@ -476,7 +475,6 @@ h3{
   transform: translateX( 700px );
   background-image: url(img/gatoreal1.jpg);
   
-  
   animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
 }
 
@@ -504,11 +502,10 @@ h3{
   28% { transform: translateX( -700px ); }
   100% { transform: translateX( -700px ); }
 }
-
 /* fim da formatação do slide de animais */
 
-/* formatação da entrada de texto */
 
+/* formatação da entrada de texto */
 .input {
   max-width: 190px;
   height: 44px;
