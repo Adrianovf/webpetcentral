@@ -42,6 +42,39 @@
 	box-shadow: 0 4px 15px 0 rgba(0,0,0,0.7), 0 4px 15px 0 rgba(0,0,0,0.7);
 }
 
+.container2 {
+	background-color: #ecdfdf;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 600px;
+	padding: 20px;
+	border-radius: 25px 25px 25px 25px;
+	box-shadow: 0 4px 15px 0 rgba(0,0,0,0.7), 0 4px 15px 0 rgba(0,0,0,0.7);
+}
+
+.containergroup {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente os containers */
+  margin-top: 100px;
+  height: 100vh; /* Define a altura da div para ocupar toda a altura da tela */
+}
+
+.containerhome {
+  background-color: #ecdfdf;
+  margin-right: 30px; /* Adicione margem para separação a direita entre os containers */
+  width: 300px;
+  height: 350px;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px 0 rgba(0,0,0,0.7), 0 4px 15px 0 rgba(0,0,0,0.7);
+}
+
+
+
+
+
 /*Formatação entrada de texto*/
 .textoentrada {
   border: none;
@@ -66,18 +99,6 @@
 
 legend{
 	color: #090909;
-}
-
-.container2 {
-	background-color: #ecdfdf;
-	margin-top: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 300px;
-	height: 600px;
-	padding: 20px;
-	border-radius: 25px 25px 25px 25px;
-	box-shadow: 0 4px 15px 0 rgba(0,0,0,0.7), 0 4px 15px 0 rgba(0,0,0,0.7);
 }
 
 
