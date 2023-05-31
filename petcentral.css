@@ -58,22 +58,20 @@
   display: flex;
   justify-content: center; /* Centraliza horizontalmente os containers */
   margin-top: 100px;
-  height: 100vh; /* Define a altura da div para ocupar toda a altura da tela */
+  height: 110vh; /* Define a altura da div para ocupar toda a altura da tela */
 }
 
 .containerhome {
   background-color: #ecdfdf;
+ 
   margin-right: 30px; /* Adicione margem para separação a direita entre os containers */
   width: 300px;
-  height: 350px;
+  height: 450px;
   padding: 20px;
   border-radius: 25px;
-  box-shadow: 0 4px 15px 0 rgba(0,0,0,0.7), 0 4px 15px 0 rgba(0,0,0,0.7);
+  border-color: #090909;
+  border-style: groove;
 }
-
-
-
-
 
 /*Formatação entrada de texto*/
 .textoentrada {
@@ -220,10 +218,11 @@ h3{
   }
   
   body {
+    height: 100vh;
     font-family: "Euclid Circular A", Poppins;
     color: #f9f9f9;
-    background-color: rgb(120, 255, 255);
-    background-image: url("img/backgroundpatinha.png");
+    background-image: url(img/backgrounpatinaazul.png);
+    background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 0% 10%;
@@ -236,137 +235,8 @@ h3{
     cursor: pointer;
   }
   
-  .burger,
-  .menu {
-    position: fixed;
-  }
   
-  .burger {
-    z-index: 3;
-    top: 0;
-    left: 0;
-    display: grid;
-    place-items: center;
-    width: 88px;
-    height: 88px;
-    background-image: url("menu.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  body.open .burger {
-    background-image: url("close.svg");
-  }
-  
-  .menu {
-    z-index: 2;
-    top: 0;
-    left: 0;
-    display: grid;
-    place-items: center;
-    width: 400px;
-    height: 100%;
-    background: rgb(221, 221, 221);
-    translate: -100% 0;
-    transition: translate 0.375s cubic-bezier(0.175, 0.885, 0.32, 1);
-  }
-  
-  .menu nav {
-    opacity: 0;
-  }
-  
-  @keyframes menu-in {
-    0% {
-      clip-path: ellipse(60% 60% at 0% 50%);
-    }
-    100% {
-      clip-path: ellipse(120% 120% at 0% 50%);
-    }
-  }
-  
-  body.open .menu {
-    opacity: 1;
-    visibility: visible;
-    translate: 0;
-    animation: menu-in 0.375s;
-  }
-  
-  body.open .menu nav {
-    opacity: 1;
-  }
-  
-  .menu nav:hover a {
-    opacity: 0.25;
-  }
-  
-  .menu nav a:hover {
-    opacity: 1;
-  }
-  
-  .menu nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .menu a {
-    position: relative;
-    color: #000000;
-    font-size: 32px;
-    font-family: "Euclid Circular A";
-    padding: 20px 0;
-    width: 300px;
-    text-decoration: none;
-    transition: 0.4s;
-  }
-  
-  .menu a::before,
-  .menu a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 10px;
-    width: 100%;
-    height: 2px;
-    border-radius: 2px;
-    transition: 0.4s;
-  }
-  
-  .menu a::before {
-    opacity: 0;
-    background: rgb(255 255 255 / 20%);
-  }
-  
-  .menu a::after {
-    transform: scaleX(0);
-    transform-origin: 0% 50%;
-    background: #000000;
-  }
-  
-  .menu a:hover::before {
-    opacity: 1;
-  }
-  
-  .menu a:hover::after {
-    transform: scaleX(1);
-  }
-  
-  body.open .menu a {
-    animation: appear 0.25s backwards;
-  }
-  
-  @keyframes appear {
-    0% {
-      opacity: 0;
-      translate: -30px 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-
-/* css do navbar */
+/* inicio css do navbar */
 
   @import url('https://font.googleapis.com/css?family=Open+Sans&display=swap');
 
