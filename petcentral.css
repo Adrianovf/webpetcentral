@@ -47,8 +47,8 @@
 	margin-top: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 300px;
-	height: 600px;
+	width: 350px;
+	height: 700px;
 	padding: 20px;
 	border-radius: 25px 25px 25px 25px;
 	box-shadow: 0 4px 15px 0 rgba(0,0,0,0.7), 0 4px 15px 0 rgba(0,0,0,0.7);
@@ -58,7 +58,8 @@
   display: flex;
   justify-content: center; /* Centraliza horizontalmente os containers */
   margin-top: 100px;
-  height: 110vh; /* Define a altura da div para ocupar toda a altura da tela */
+  height: 120vh;
+   /* Define a altura da div para ocupar toda a altura da tela */
 }
 
 .containerhome {
@@ -66,7 +67,7 @@
  
   margin-right: 30px; /* Adicione margem para separação a direita entre os containers */
   width: 300px;
-  height: 450px;
+  height: 550px;
   padding: 20px;
   border-radius: 25px;
   border-color: #502917;
