@@ -7,5 +7,5 @@ function del() {
     echo"<script>alert('Registro Excluído com Sucesso!')</script>";
     echo"<script>location.href='../verCliente.php'</script>";
  }
-
+ 
 ?>
