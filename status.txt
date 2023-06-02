@@ -1,0 +1,5 @@
+vercliente.php funcionando mas precisa resolver o problema do sobrenome estar mostrando em branco mesmo tendo sobrenome cadastrado
+
+cadastro de cliente nao foi testado, provavelmente precisa ajeitar
+
+conexao.php funcionando sem problema
