@@ -14,10 +14,13 @@
 
     //Tenta conectar
     try {
+        
         //cria a conexão PDO com a base de dados
         $conexao_pdo = new PDO($detalhes_pdo, $usuario_bd, $senha_bd);
+
         //echo "Banco de dados conectado!!!";
     } catch (PDOException $e) {
+
         //se der algo errado, mostra o erro PDO
         echo "Erro ao abrir o banco !!!";
         

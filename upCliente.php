@@ -6,7 +6,7 @@
     <?php
         include("conexao.php");
 
-        $codigo=$_GET['Cod_Cliente'];
+        $codigo=$_GET['cpf'];
 
         //Procura na tabela o registro do codigo igual ao da variavel
         $pdo_verifica = $conexao_pdo->prepare("SELECT *
