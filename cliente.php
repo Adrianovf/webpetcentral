@@ -14,25 +14,24 @@ if (isset($_POST['set'])) $set = $_POST['set'];
 if (isset($_GET['cpf'])) $cpf = $_GET['cpf'];
 if (isset($_GET['set'])) $set = $_GET['set'];
 
-if (isset($set)) {
-    if ($set == 'ad') {
+if ($set=='insert') {
         $pdo_insere = $conexao_pdo->prepare('INSERT INTO cliente (nome, sobrenome, telefone, cpf, email, senha)
         VALUES (?, ?, ?, ?, ?, ?)');
         $pdo_insere->execute(array($nome, $sobrenome, $telefone, $cpf, $email, $senha));
         sets();
-    } elseif ($set == 'up') {
+} elseif ($set == 'up') {
         //Executa alteração no registro do cliente
         $pdo_insere = $conexao_pdo->prepare("UPDATE cliente
                                              SET nome=?, sobrenome=?, telefone=?, cpf=?, email=?, senha=?
                                              WHERE cpf=?");
         $pdo_insere->execute(array($nome, $sobrenome, $telefone, $cpf, $email, $senha, $cpf));
         sets();
-    } elseif ($set == 'del') {
+} elseif ($set == 'del') {
         // Exclui o registro do cliente
         $pdo_delete = $conexao_pdo->prepare("DELETE FROM cliente
                                              WHERE cpf='$cpf'");
         $pdo_delete->execute();
         del();
-    }
 }
+
 ?>

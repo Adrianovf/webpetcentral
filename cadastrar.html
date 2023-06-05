@@ -121,36 +121,36 @@
     <div class="container2">
         <h2 style="color: #152939; margin-left: 40px; margin-top: 30px;">Cadastrar sua conta</h2>
         <br>
-        <form action="#" method="get">
+        <form action="cliente.php" method="POST">
 
             <div class="input-group" style="margin-left: 55px;">
                 <label class="label">Nome</label>
-                <input autocomplete="off" name="Nome" id="Nome" class="input" type="text">
+                <input autocomplete="off" name="nome" id="nome" class="input" type="text">
             </div>
 
             <div class="input-group" style="margin-left: 55px">
                 <label class="label">Sobrenome</label>
-                <input autocomplete="off" name="Sobrenome" id="Sobrenome" class="input" type="text">
+                <input autocomplete="off" name="sobrenome" id="sobrenome" class="input" type="text">
             </div>
             
             <div class="input-group" style="margin-left: 55px">
                 <label class="label">Telefone</label>
-                <input autocomplete="off" name="Telefone" id="Telefone" class="input" type="number">
+                <input autocomplete="off" name="telefone" id="telefone" class="input" type="text">
             </div>
             
             <div class="input-group" style="margin-left: 55px">
                 <label class="label">Cpf</label>
-                <input autocomplete="off" name="Cpf" id="Cpf" class="input" type="text">
+                <input autocomplete="off" name="cpf" id="cpf" class="input" type="text">
             </div>
             
             <div class="input-group" style="margin-left: 55px">
                 <label class="label">Email</label>
-                <input autocomplete="off" name="Email" id="Email" class="input" type="email">
+                <input autocomplete="off" name="email" id="email" class="input" type="email">
             </div>
             
             <div class="input-group" style="margin-left: 55px">
                 <label class="label">Senha</label>
-                <input autocomplete="off" name="Senha" id="Senha" class="input" type="password">
+                <input autocomplete="off" name="senha" id="senha" class="input" type="password">
             </div>
 
             <div class="input-group" style="margin-left: 55px">
@@ -158,10 +158,8 @@
                 <input autocomplete="off" name="Confirmesenha" id="Confirmesenha" class="input" type="password">
             </div>
             <br><br>
-
-            <button class="botao">
-                <b>Cadastrar</b>
-            </button>
+            <input type="hidden" name="set" value="insert">
+            <input type="submit" value="Registrar">
 
     </div>
     
