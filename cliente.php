@@ -1,6 +1,6 @@
 <?php
 include('conexao.php');
-include('alertasC.php');
+include('alertas.php');
 
 if (isset($_POST['nome'])) $nome = $_POST['nome'];
 if (isset($_POST['sobrenome'])) $sobrenome = $_POST['sobrenome'];

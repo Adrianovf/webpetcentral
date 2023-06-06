@@ -52,6 +52,7 @@
                     $email      = isset($rs['email']) ? $rs['email'] : '';
                     $senha      = isset($rs['senha']) ? $rs['senha'] : '';
                 ?>
+                
                 <tr>
                     <td width='30%'><b><?php echo $nome; ?></td>
                     <td width='10%'><b><?php echo $sobrenome; ?></b></td>
@@ -65,6 +66,7 @@
                             <a href='upCliente.php?Cod_Cliente=<?php echo $codigo;?>' title='Editar'><img src='img/editar.png' width="20" height="20"></a>
                             <a href='cliente.php?Cod_Cliente=<?php echo $codigo;?>&set=del' title='Excluir'><img src='img/deletar.png' width='20' height='20'></a>
                         </center>
+
                     </td>
                 </tr>
 

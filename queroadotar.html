@@ -120,33 +120,28 @@
 </header>
 <!--fim navbar transparente-->
     <div class="containerqueroadotar">
-        <h2 style="color: #152939; margin-left: 200px; margin-top: 30px;">Preencha o formulário </h2>
-        <div class="input-group" style="margin-left: 55px; margin-top: 30px;">
-            <label class="label">Estado</label>
-            <input autocomplete="off" name="estado" id="estado" class="input" type="text">
-        </div>
+        <h2 style="color: #152939; margin-left: 200px; margin-top: 30px;">Selecione as opções</h2>
+        <br>
+        <h3>Mora de aluguel?</h3>
+        <input type="radio" name="grupo1" value="sim" /> Sim<br />
+        <input type="radio" name="grupo1" value="nao" /> Não<br />
 
-        <div class="input-group" style="margin-left: 55px; margin-top: 30px;">
-            <label class="label">Cidade</label>
-            <input autocomplete="off" name="cidade" id="cidade" class="input" type="text">
-        </div>
+        <!--inicio radio group e radio button-->
+        <form>
+            <label>
+                <input type="radio" name="radio" checked/>
+                <span>HTML</span>
+            </label>
+            <label>
+                <input type="radio" name="radio"/>
+                <span>CSS</span>
+            </label>
+            <label>
+                <input type="radio" name="radio"/>
+                <span>Javascript</span>
+            </label>
+        </form>
+        <!--fim radio group e radio button-->
 
-        <div class="input-group" style="margin-left: 55px; margin-top: 30px;">
-            <label class="label">Idade</label>
-            <input autocomplete="off" name="idade" id="idade" class="input" type="text">
-        </div>
-
-        <div class="input-group" style="margin-left: 55px; margin-top: 30px;">
-            <label class="label">Mora de aluguel ?</label>
-            <input autocomplete="off" name="moradia" id="moradia" class="input" type="text">
-        </div>
-
-
-</div>
-
-
-
-
-
-
+    </div>
 </body>
