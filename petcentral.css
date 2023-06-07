@@ -43,7 +43,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 350px;
-	height: 700px;
+	height: auto;
 	padding: 20px;
 	border-radius: 25px 25px 25px 25px;
 	box-shadow: 0 4px 15px 0 rgba(0,0,0,0.7), 0 4px 15px 0 rgba(0,0,0,0.7);
@@ -545,9 +545,6 @@ body {
 	padding: 20px;
 	border-radius: 25px 25px 25px 25px;
 	box-shadow: 0 4px 15px 0 rgba(0,0,0,0.7), 0 4px 15px 0 rgba(0,0,0,0.7);
-
-
-
 }
 
 .containerqueroadotar{

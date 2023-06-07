@@ -19,34 +19,54 @@
         $rs = $pdo_verifica->fetch();
 
         $nome=$rs['nome'];
-        $sobrenome=$rs['sobrenome'];
         $telefone=$rs['telefone'];
         $cpf=$rs['cpf'];
         $email=$rs['email'];
         $senha=$rs['senha'];
+        $confirmesenha=$rs['confirmesenha'];
+        $estado=$rs['estado'];
+        $cidade=$rs['cidade'];
+        $bairro=$rs['bairro'];
+        $rua=$rs['rua'];
+        $uf=$rs['uf'];
     ?>
     <body>
         <h1>ALTERAR CLIENTE</h1>
         <br>
         <form action='action/cliente.php' method="post">
 
-            <label>CPF:</label>
+            <label>nome:</label>
             <input name='nome' type='text' size="10" value='<?php echo $nome;?>'><br><br>
 
-            <label>Sobrenome:</label>
-            <input name='sobrenome' type='text' size="100" value='<?php echo $sobrenome;?>'><br><br>
+            <label>telefone:</label>
+            <input name='telefone' type='text' size="100" value='<?php echo $telefone;?>'><br><br>
 
-            <label>Telefone:</label>
-            <input name='telefone' type='text' size="50" value='<?php echo $telefone;?>'><br><br>
-            
-            <label>Cpf:</label>
+            <label>cpf:</label>
             <input name='cpf' type='text' size="50" value='<?php echo $cpf;?>'><br><br>
-
-            <label>E-mail:</label>
+            
+            <label>email:</label>
             <input name='email' type='text' size="50" value='<?php echo $email;?>'><br><br>
 
-            <label>Senha:</label>
+            <label>senha:</label>
             <input name='senha' type='text' size="50" value='<?php echo $senha;?>'><br><br>
+
+            <label>confirmesenha:</label>
+            <input name='confirmesenha' type='text' size="50" value='<?php echo $confirmesenha;?>'><br><br>
+
+            <label>estado:</label>
+            <input name='estado' type='text' size="50" value='<?php echo $estado;?>'><br><br>
+
+            <label>cidade:</label>
+            <input name='cidade' type='text' size="50" value='<?php echo $cidade;?>'><br><br>
+
+            <label>bairro:</label>
+            <input name='bairro' type='text' size="50" value='<?php echo $bairro;?>'><br><br>
+
+            <label>rua:</label>
+            <input name='rua' type='text' size="50" value='<?php echo $rua;?>'><br><br>
+
+            <label>uf:</label>
+            <input name='uf' type='text' size="50" value='<?php echo $uf;?>'><br><br>
 
             <div align='center'>
                 <input name='set' type='hidden' value='up'>
