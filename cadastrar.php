@@ -161,3 +161,20 @@
         <p style="text-align: center; font-size: 15px;">&copy; Copyright - 2023 - Todos os direitos reservados - Pentagono Developers</p>
     </div>
 </body>
+
+<?php
+ //Inclui o arquivo de configuração
+
+include('conexao.php');
+
+// Inclui o arquivo de verificação de login
+include('login/verifica_login.php');
+
+// Se não for permitido acesso nenhum ao arquivo
+// Inclua o trecho abaixo, ele redireciona o usuário para
+// o formulário de login
+include('login/redirect.php');
+
+        $nivel  =$_SESSION['nivel_usuario'];
+     
+?>

@@ -117,7 +117,7 @@
                 <b>Cadastre-se</b>
             </a>
 
-            <a href="entrar.html" class="botao" style="background-color: #7495b1;">
+            <a href="entrar.php" class="botao" style="background-color: #7495b1;">
                 <b>Entrar</b>
             </a>
         </div>
@@ -154,7 +154,7 @@
         <h3 style="margin-left: 0px;">Peso</h3>
         <h3 style="margin-left: 0px;">Raça</h3>
         <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; margin-top: -20px;">
-        <a href="entrar.html" style="text-decoration: none; margin-left: 1000px;">
+        <a href="entrar.php" style="text-decoration: none; margin-left: 1000px;">
             <button class="botao">
                 <b>Quero adotar</b>
             </button>
@@ -174,7 +174,7 @@
         <h3 style="margin-left: 0px;">Peso</h3>
         <h3 style="margin-left: 0px;">Raça</h3>
         <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; margin-top: -20px;">
-        <a href="entrar.html" style="text-decoration: none; margin-left: 1000px;">
+        <a href="entrar.php" style="text-decoration: none; margin-left: 1000px;">
             <button class="botao">
                 <b>Quero adotar</b>
             </button>
@@ -194,7 +194,7 @@
         <h3 style="margin-left: 0px;">Peso</h3>
         <h3 style="margin-left: 0px;">Raça</h3>
         <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; margin-top: -20px;">
-        <a href="entrar.html" style="text-decoration: none; margin-left: 1000px;">
+        <a href="entrar.php" style="text-decoration: none; margin-left: 1000px;">
             <button class="botao">
                 <b>Quero adotar</b>
             </button>
@@ -214,27 +214,7 @@
         <h3 style="margin-left: 0px;">Peso</h3>
         <h3 style="margin-left: 0px;">Raça</h3>
         <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; margin-top: -20px;">
-        <a href="entrar.html" style="text-decoration: none; margin-left: 1000px;">
-            <button class="botao">
-                <b>Quero adotar</b>
-            </button>
-        </a>
-        <!--fim do conteudo do container-->
-        </div>
-      </div>
-      
-
-      <div class="col-md-3">
-        <div class="containerhome">
-          <!-- Conteúdo do contêiner -->
-        <img src="img/cachorro.png" style="width: 250px; height: 250px; border-radius: 20px; justify-content: center;">
-        <h3 style="font-family: Arial, Helvetica, sans-serif;">Nome</h3>
-        <h3 style="margin-left: 0px;">Localização</h3>
-        <h3 style="margin-left: 0px;">Idade</h3>
-        <h3 style="margin-left: 0px;">Peso</h3>
-        <h3 style="margin-left: 0px;">Raça</h3>
-        <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; margin-top: -20px;">
-        <a href="entrar.html" style="text-decoration: none; margin-left: 1000px;">
+        <a href="entrar.php" style="text-decoration: none; margin-left: 1000px;">
             <button class="botao">
                 <b>Quero adotar</b>
             </button>
@@ -243,6 +223,26 @@
         </div>
       </div>
       
+
+      <div class="col-md-3">
+        <div class="containerhome">
+          <!-- Conteúdo do contêiner -->
+        <img src="img/cachorro.png" style="width: 250px; height: 250px; border-radius: 20px; justify-content: center;">
+        <h3 style="font-family: Arial, Helvetica, sans-serif;">Nome</h3>
+        <h3 style="margin-left: 0px;">Localização</h3>
+        <h3 style="margin-left: 0px;">Idade</h3>
+        <h3 style="margin-left: 0px;">Peso</h3>
+        <h3 style="margin-left: 0px;">Raça</h3>
+        <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; margin-top: -20px;">
+        <a href="entrar.php" style="text-decoration: none; margin-left: 1000px;">
+            <button class="botao">
+                <b>Quero adotar</b>
+            </button>
+        </a>
+        <!--fim do conteudo do container-->
+        </div>
+      </div>
+      
       
       <div class="col-md-3">
         <div class="containerhome">
@@ -254,7 +254,7 @@
         <h3 style="margin-left: 0px;">Peso</h3>
         <h3 style="margin-left: 0px;">Raça</h3>
         <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; margin-top: -20px;">
-        <a href="entrar.html" style="text-decoration: none; margin-left: 1000px;">
+        <a href="entrar.php" style="text-decoration: none; margin-left: 1000px;">
             <button class="botao">
                 <b>Quero adotar</b>
             </button>
@@ -276,3 +276,4 @@
 <footer>
     <p style="text-align: center; font-size: 15px;"><b>&copy; Copyright - 2023 - Todos os direitos reservados - Pentagono Developers <a href="quemsomos.html">Quem somos</a></b></p>
 </footer>
+
