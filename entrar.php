@@ -114,7 +114,7 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="img/letreiro.png" style="width: 200px; height: auto;">
+                <img src="img/logonovo.png" style="width: 200px; height: auto;">
             </div>        
         </nav>
     </header>
@@ -161,4 +161,5 @@
     <footer>
     <p style="text-align: center; font-size: 15px;"><b>&copy; Copyright - 2023 - Todos os direitos reservados - Pentagono Developers <a href="quemsomos.html">Quem somos</a></b></p>
 </footer>
+
 </body>

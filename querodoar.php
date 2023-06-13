@@ -2,13 +2,11 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Central-Quero doar</title>
     <link rel="stylesheet" href="petcentral.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-    <title>Quem somos nós</title>
 
-    <!--Nav bar transparente-->
+<!--Nav bar transparente-->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
@@ -103,22 +101,50 @@
 <!--fim navbar transparente-->
 
 </head>
-
 <body>
-
-  <!--navbar transparente-->
+<!--navbar transparente-->
     <header>
         <nav>
             <div class="logo">
-                <img src="img/letreiro.png" style="width: 250px; height: 45px;">
+                <img src="img/letreiro.png" style="width: 200px; height: auto;">
             </div>
         </nav>
     </header>
 <!--fim navbar transparente-->
-    <div class="containerquemsomos">
-    <h1 style="color: #152939; margin-left: 220px; margin-top: 50px;">Quem somos nós ?</h1>
-    <h2 style="color: #152939; margin-left: 50px; margin-top: 30px;">O Pet Central é um sistema desenvolvido para facilitar as doações de animais.Além
-        de tornar mais rápido, fornecendo aos usuários e possíveis adotantes um catálogo amplo com os perfis de todos os animais disponíveis,sem que eles precisem estar indo
-        aos abrigos em busca de seus novos companheiros. </h2>
+
+    <div class="container2">
+        <br><br>
+        <h2 style="color: #152939; text-align: center;">Cadastrar animal</h2>
+        <br><br>
+        <form action='queroadoar.php' method='POST'>
+            <div class="input-group" style="margin-left: 60px;">
+                <label class="label">Nome do animal:</label>
+                <input autocomplete="off" name="nomeanimal" id="nomeanimal" class="input" type="text">
+            </div>   
+            <div class="input-group" style="margin-left: 60px;">
+                <label class="label">Idade do animal:</label>
+                <input autocomplete="off" name="idadeanimal" id="idadeanimal" class="input" type="text">
+            </div>   
+            
+            <div class="input-group" style="margin-left: 60px;">
+                <label class="label">sexo do animal:</label>
+                <input autocomplete="off" name="sexoanimal" id="sexoanimal" class="input" type="text">
+            </div>   
+            
+            <div class="input-group" style="margin-left: 60px;">
+                <label class="label">Descrição do animal</label>
+                <input autocomplete="off" name="descricacaoanimal" id="descricaoanimal" class="input" type="text">
+            </div>
+
+            <div class="input-group" style="margin-left: 60px;">
+                <label class="label">Situação do animal:</label>
+                <input autocomplete="off" name="situacaoanimal" id="situacaoanimal" class="input" type="text">
+            </div>   
+
+            <button class="botao" style="margin-left: 100px;">
+                    <h4>Solicitar</h4>
+        </button>
+
+        </form> 
     </div>
 </body>

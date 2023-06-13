@@ -549,11 +549,11 @@ body {
 
 .containerqueroadotar{
   background-color: #ecdfdf;
-	margin-top: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 730px;
-	height: 700px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 750px;
+	width: 400px;
+	height: auto;
 	padding: 20px;
 	border-radius: 25px 25px 25px 25px;
 	box-shadow: 0 4px 15px 0 rgba(0,0,0,0.7), 0 4px 15px 0 rgba(0,0,0,0.7);

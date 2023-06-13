@@ -111,8 +111,6 @@
             // Inclua o trecho abaixo, ele redireciona o usuário para
             // o formulário de login
             include('login/redirect.php');
-
-         
         ?>
     </head>
 
@@ -122,64 +120,62 @@
         <header>
             <nav>
                 <div class="logo">
-                    <img src="img/letreiro.png" style="width: 200px; height: auto;">
+                    <img src="img/logonovo.png" style="width: 200px; height: auto;">
                 </div>
-                <button class="botao" style="margin-left: 1000px;">
+                <button class="botao" style="margin-left:1000px;">
+                    <b>Quero doar</b>
+                </button>
+                <button class="botao" style="margin-left:20px;">
                     <b>Quero adotar</b>
                 </button>
-                <button class="botao">
+                <button class="botao" style="margin-left:20px;">
                     <b>Entrar</b>
                 </button>
+
             </nav>
         </header>
         <!--fim navbar transparente-->
         <div class="containerqueroadotar">
-                <h2 style="color: #152939;  margin-left: 50px; margin-top: 20px;">Sua Localização</h2>
+                <h2 style="color: #152939;text-align: center; margin-top: 20px;">Informações pessoais</h2>
                 <br>
-                
-               
-                <!--
-                <h3>Mora de aluguel?</h3>
-                <input type="radio" name="radiogroup1" value="sim" /> <b>Sim</b><br />
-                <input type="radio" name="radiogroup1" value="nao" /> <b>Não</b><br />
-                -->
-
                 
             <form action="cliente.php" method="POST">
 
                 <div class="input-group" style="margin-left: 55px;">
-                    <label class="label">UF</label>
+                    <label class="label">Telefone</label>
                     <input autocomplete="off" name="endereco" id="endereco" class="input" type="text" maxlength="40">
                 </div>
 
                  <div class="input-group" style="margin-left: 55px;">
+                    <label class="label">E-mail</label>
+                    <input autocomplete="off" name="cpf" id="cpf" class="input" type="text" maxlength="40">
+                </div>
+
+                <div class="input-group" style="margin-left: 55px;">
+                    <label class="label">Endereço</label>
+                    <input autocomplete="off" name="cpf" id="cpf" class="input" type="text" maxlength="40">
+                </div>
+
+                <div class="input-group" style="margin-left: 55px;">
+                    <label class="label">Rua</label>
+                    <input autocomplete="off" name="datanascimento" id="datanascimento" class="input" type="text" maxlength="40">
+                </div>
+
+                <div class="input-group" style="margin-left: 55px;">
                     <label class="label">Cidade</label>
                     <input autocomplete="off" name="cpf" id="cpf" class="input" type="text" maxlength="40">
                 </div>
 
                 <div class="input-group" style="margin-left: 55px;">
-                    <label class="label">Bairro</label>
-                    <input autocomplete="off" name="cpf" id="cpf" class="input" type="text" maxlength="40">
-                </div>
-
-                <h2 style="color: #152939;  margin-left: 50px; margin-top: 20px;">Informações pessoais</h2>
-                <br>
-
-                <div class="input-group" style="margin-left: 55px;">
-                    <label class="label">Data de nascimento</label>
-                    <input autocomplete="off" name="datanascimento" id="datanascimento" class="input" type="text" maxlength="40">
-                </div>
-
-                <div class="input-group" style="margin-left: 55px;">
-                    <label class="label">CPF</label>
-                    <input autocomplete="off" name="cpf" id="cpf" class="input" type="text" maxlength="40">
-                </div>
-
-                <div class="input-group" style="margin-left: 55px;">
-                    <label class="label">Telefone</label>
+                    <label class="label">Estado</label>
                     <input autocomplete="off" name="telefone" id="telefone" class="input" type="text" maxlength="40">
                 </div>
-               
+                <br>
+
+                <button class="botao">
+                    <h4>Solicitar</h4>
+        </button>
+                <br>
             </form>
         </div>
     </body>
