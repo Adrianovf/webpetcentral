@@ -8,7 +8,6 @@ if ( ! isset( $conexao_pdo ) || ! is_object( $conexao_pdo ) ) {
 if ( isset( $_POST ) && ! empty( $_POST ) ) {
 	$dados_usuario = $_POST;
 } else {
-	$dados_usuario = $_SESSION;
 }
 
 // Verifica se os campos de usuário e senha existem

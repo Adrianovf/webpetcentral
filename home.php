@@ -109,7 +109,7 @@
   <header>
     <nav>
         <div class="logo">
-            <img src="img/letreiro.png" style="width: 200px; height: auto;">
+            <img src="img/letreiro2.png" style="width: 200px; height: auto;">
         </div>
 
         <div class="navbar">          
@@ -146,12 +146,12 @@
         <div class="containerhome">
           <!-- Conteúdo do contêiner -->
         <img src="img/cachorrohome.jpg" style="width: 250px; height: 250px; border-radius: 20px; justify-content: center;">
+        <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; position: relative;">
         <h3 style="margin-left: 0px;">Nome:Lindinha</h3>
         <h3 style="margin-left: 0px;">Localização</h3>
         <h3 style="margin-left: 0px;">Idade</h3>
         <h3 style="margin-left: 0px;">Peso</h3>
         <h3 style="margin-left: 0px;">Raça</h3>
-        <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; margin-top: -20px;">
         <a href="entrar.php" style="text-decoration: none; margin-left: 1000px;">
             <button class="botao">
                 <b>Quero adotar</b>
@@ -167,12 +167,12 @@
         <div class="containerhome">
           <!-- Conteúdo do contêiner -->
         <img src="img/gatohome.jpg" style="width: 250px; height: 250px; border-radius: 20px; justify-content: center;">
+        <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; position: relative;">
         <h3 style="margin-left:0px;">Nome:Jack</h3>
         <h3 style="margin-left: 0px;">Localização</h3>
         <h3 style="margin-left: 0px;">Idade</h3>
         <h3 style="margin-left: 0px;">Peso</h3>
         <h3 style="margin-left: 0px;">Raça</h3>
-        <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; margin-top: -20px;">
         <a href="entrar.php" style="text-decoration: none; margin-left: 1000px;">
             <button class="botao">
                 <b>Quero adotar</b>
@@ -187,12 +187,12 @@
         <div class="containerhome">
           <!-- Conteúdo do contêiner -->
         <img src="img/amarelinho.jpg" style="width: 250px; height: 250px; border-radius: 20px; justify-content: center;">
+        <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; position: relative;">
         <h3 style="margin-left:0px;;">Nome</h3>
         <h3 style="margin-left: 0px;">Localização</h3>
         <h3 style="margin-left: 0px;">Idade</h3>
         <h3 style="margin-left: 0px;">Peso</h3>
         <h3 style="margin-left: 0px;">Raça</h3>
-        <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; margin-top: -20px;">
         <a href="entrar.php" style="text-decoration: none; margin-left: 1000px;">
             <button class="botao">
                 <b>Quero adotar</b>
@@ -207,12 +207,12 @@
         <div class="containerhome">
           <!-- Conteúdo do contêiner -->
         <img src="img/yorkshire.jpg" style="width: 250px; height: 250px; border-radius: 20px; justify-content: center;">
+        <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; position: relative;">
         <h3 style="font-family: Arial, Helvetica, sans-serif;">Nome</h3>
         <h3 style="margin-left: 0px;">Localização</h3>
         <h3 style="margin-left: 0px;">Idade</h3>
         <h3 style="margin-left: 0px;">Peso</h3>
         <h3 style="margin-left: 0px;">Raça</h3>
-        <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; margin-top: -20px;">
         <a href="entrar.php" style="text-decoration: none; margin-left: 1000px;">
             <button class="botao">
                 <b>Quero adotar</b>
@@ -226,13 +226,13 @@
       <div class="col-md-3">
         <div class="containerhome">
           <!-- Conteúdo do contêiner -->
-        <img src="img/cachorro.png" style="width: 250px; height: 250px; border-radius: 20px; justify-content: center;">
+        <img src="img/gatopixabay1.jpg" style="width: 250px; height: 250px; border-radius: 20px; justify-content: center;">
+        <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; position: relative;">
         <h3 style="font-family: Arial, Helvetica, sans-serif;">Nome</h3>
         <h3 style="margin-left: 0px;">Localização</h3>
         <h3 style="margin-left: 0px;">Idade</h3>
         <h3 style="margin-left: 0px;">Peso</h3>
         <h3 style="margin-left: 0px;">Raça</h3>
-        <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; margin-top: -20px;">
         <a href="entrar.php" style="text-decoration: none; margin-left: 1000px;">
             <button class="botao">
                 <b>Quero adotar</b>
@@ -246,13 +246,53 @@
       <div class="col-md-3">
         <div class="containerhome">
           <!-- Conteúdo do contêiner -->
-        <img src="img/cachorro.png" style="width: 250px; height: 250px; border-radius: 20px; justify-content: center;">
+        <img src="img/gatopixabay2.jpg" style="width: 250px; height: 250px; border-radius: 20px; justify-content: center;">
+        <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; position: relative;">
         <h3 style="font-family: Arial, Helvetica, sans-serif;">Nome</h3>
         <h3 style="margin-left: 0px;">Localização</h3>
         <h3 style="margin-left: 0px;">Idade</h3>
         <h3 style="margin-left: 0px;">Peso</h3>
         <h3 style="margin-left: 0px;">Raça</h3>
-        <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; margin-top: -20px;">
+        <a href="entrar.php" style="text-decoration: none; margin-left: 1000px;">
+            <button class="botao">
+                <b>Quero adotar</b>
+            </button>
+        </a>
+        <!--fim do conteudo do container-->
+        </div>
+      </div>
+      
+      
+      <div class="col-md-3">
+        <div class="containerhome">
+          <!-- Conteúdo do contêiner -->
+        <img src="img/cachorropixabay1.jpg" style="width: 250px; height: 250px; border-radius: 20px; justify-content: center;">
+        <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; position: relative;">
+        <h3 style="font-family: Arial, Helvetica, sans-serif;">Nome</h3>
+        <h3 style="margin-left: 0px;">Localização</h3>
+        <h3 style="margin-left: 0px;">Idade</h3>
+        <h3 style="margin-left: 0px;">Peso</h3>
+        <h3 style="margin-left: 0px;">Raça</h3>
+        <a href="entrar.php" style="text-decoration: none; margin-left: 1000px;">
+            <button class="botao">
+                <b>Quero adotar</b>
+            </button>
+        </a>
+        <!--fim do conteudo do container-->
+        </div>
+      </div>
+      
+      
+      <div class="col-md-3">
+        <div class="containerhome">
+          <!-- Conteúdo do contêiner -->
+        <img src="img/cachorropixabay2.jpg" style="width: 250px; height: 250px; border-radius: 20px; justify-content: center;">
+        <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; position: relative;">
+        <h3 style="font-family: Arial, Helvetica, sans-serif;">Nome</h3>
+        <h3 style="margin-left: 0px;">Localização</h3>
+        <h3 style="margin-left: 0px;">Idade</h3>
+        <h3 style="margin-left: 0px;">Peso</h3>
+        <h3 style="margin-left: 0px;">Raça</h3>
         <a href="entrar.php" style="text-decoration: none; margin-left: 1000px;">
             <button class="botao">
                 <b>Quero adotar</b>

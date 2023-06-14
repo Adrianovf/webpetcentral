@@ -106,7 +106,7 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="img/letreiro.png" style="width: 200px; height: auto;">
+                <img src="img/letreiro2.png" style="width: 200px; height: auto;">
             </div>
         </nav>
     </header>
@@ -115,7 +115,7 @@
     <div class="container2">
         <br><br>
         <h2 style="color: #152939; text-align: center;">Cadastrar animal</h2>
-        <br><br>
+        <br>
         <form action='queroadoar.php' method='POST'>
             <div class="input-group" style="margin-left: 60px;">
                 <label class="label">Nome do animal:</label>
@@ -127,7 +127,7 @@
             </div>   
             
             <div class="input-group" style="margin-left: 60px;">
-                <label class="label">sexo do animal:</label>
+                <label class="label">Sexo do animal:</label>
                 <input autocomplete="off" name="sexoanimal" id="sexoanimal" class="input" type="text">
             </div>   
             
@@ -139,12 +139,19 @@
             <div class="input-group" style="margin-left: 60px;">
                 <label class="label">Situação do animal:</label>
                 <input autocomplete="off" name="situacaoanimal" id="situacaoanimal" class="input" type="text">
-            </div>   
+            </div>
+        <br>   
 
             <button class="botao" style="margin-left: 100px;">
                     <h4>Solicitar</h4>
-        </button>
+            </button>
 
+        <br><br>
         </form> 
     </div>
+
+        <footer class="rodape">
+            <p style="text-align: center; font-size: 15px;"><b>&copy; Copyright - 2023 - Todos os direitos reservados - Pentagono Developers <a href="quemsomos.php">Quem somos</a></b></p>
+        </footer>
+
 </body>

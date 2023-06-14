@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE +>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -110,15 +110,18 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="img/letreiro.png" style="width: 250px; height: 45px;">
+                <img src="img/letreiro2.png" style="width: 200px; height: auto;">
             </div>
         </nav>
     </header>
 <!--fim navbar transparente-->
+
     <div class="containerquemsomos">
     <h1 style="color: #152939; margin-left: 220px; margin-top: 50px;">Quem somos nós ?</h1>
-    <h2 style="color: #152939; margin-left: 50px; margin-top: 30px;">O Pet Central é um sistema desenvolvido para facilitar as doações de animais.Além
-        de tornar mais rápido, fornecendo aos usuários e possíveis adotantes um catálogo amplo com os perfis de todos os animais disponíveis,sem que eles precisem estar indo
-        aos abrigos em busca de seus novos companheiros. </h2>
+    <h2 style="color: #152939; margin-left: 50px; margin-top: 30px;">Nós somos a petcentral um sistema mediador 
+    de adoção e doação de pets, integrado a plataforma android, site e módulo desktop, desenvolvido pela Equipe Pentágono, 
+    grupo integrado por alunos do terceiro módulo do curso Técnico de Informática da FAETEC - Maria Mercedes Mendes Teixeira. 
+
+    <img src="img/gatoecachorro.png" width="600px" height="auto">
     </div>
 </body>

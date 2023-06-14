@@ -120,43 +120,43 @@
         <header>
             <nav>
                 <div class="logo">
-                    <img src="img/letreiro.png" style="width: 200px; height: auto;">
+                    <img src="img/letreiro2.png" style="width: 200px; height: auto;">
                 </div>
             </nav>
         </header>
         <!--fim navbar transparente-->
         <div class="containerqueroadotar">
-                <h2 style="color: #152939;text-align: center; margin-top: 20px;">Informações pessoais</h2>
+                <h2 style="color: #152939;text-align: center; margin-top: 20px;">Informações</h2>
                 <br>
                 
             <form action="cliente.php" method="POST">
 
-                <div class="input-group" style="margin-left: 55px;">
+                <div class="input-group" style="margin-left: 80px;">
                     <label class="label">Telefone</label>
                     <input autocomplete="off" name="endereco" id="endereco" class="input" type="text" maxlength="40">
                 </div>
 
-                 <div class="input-group" style="margin-left: 55px;">
+                 <div class="input-group" style="margin-left: 80px;">
                     <label class="label">E-mail</label>
                     <input autocomplete="off" name="cpf" id="cpf" class="input" type="text" maxlength="40">
                 </div>
 
-                <div class="input-group" style="margin-left: 55px;">
+                <div class="input-group" style="margin-left: 80px;">
                     <label class="label">Endereço</label>
                     <input autocomplete="off" name="cpf" id="cpf" class="input" type="text" maxlength="40">
                 </div>
 
-                <div class="input-group" style="margin-left: 55px;">
+                <div class="input-group" style="margin-left: 80px;">
                     <label class="label">Rua</label>
                     <input autocomplete="off" name="datanascimento" id="datanascimento" class="input" type="text" maxlength="40">
                 </div>
 
-                <div class="input-group" style="margin-left: 55px;">
+                <div class="input-group" style="margin-left: 80px;">
                     <label class="label">Cidade</label>
                     <input autocomplete="off" name="cpf" id="cpf" class="input" type="text" maxlength="40">
                 </div>
 
-                <div class="input-group" style="margin-left: 55px;">
+                <div class="input-group" style="margin-left: 80px;">
                     <label class="label">Estado</label>
                     <input autocomplete="off" name="telefone" id="telefone" class="input" type="text" maxlength="40">
                 </div>
@@ -164,9 +164,14 @@
 
                 <button class="botao">
                     <h4>Solicitar</h4>
-        </button>
+                </button>
                 <br>
             </form>
         </div>
+    
+        <footer class="rodape">
+            <p style="text-align: center; font-size: 15px;"><b>&copy; Copyright - 2023 - Todos os direitos reservados - Pentagono Developers <a href="quemsomos.php">Quem somos</a></b></p>
+        </footer>
+
     </body>
 </html>

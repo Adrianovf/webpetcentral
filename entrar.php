@@ -8,9 +8,6 @@
     <link rel="stylesheet" href="petcentral.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 
-    
-
-
         <!--Nav bar transparente-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -114,7 +111,7 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="img/letreiro.png" style="width: 200px; height: auto;">
+                <img src="img/letreiro2.png" style="width: 200px; height: auto;">
             </div>        
         </nav>
     </header>
@@ -154,8 +151,8 @@
     </div>
     <br>
 
-    <footer>
-        <p style="text-align: center; font-size: 15px;"><b>&copy; Copyright - 2023 - Todos os direitos reservados - Pentagono Developers <a href="quemsomos.html">Quem somos</a></b></p>
+    <footer class="rodape">
+        <p style="text-align: center; font-size: 15px;"><b>&copy; Copyright - 2023 - Todos os direitos reservados - Pentagono Developers <a href="quemsomos.php">Quem somos</a></b></p>
     </footer>
 
 </body>

@@ -110,7 +110,7 @@
     <header>
       <nav>
           <div class="logo">
-            <img src="img/letreiro.png" style="width: 200px; height: auto;">
+            <img src="img/letreiro2.png" style="width: 200px; height: auto;">
           </div>        
       </nav>
   </header>
@@ -156,10 +156,11 @@
 
         </form>
     </div>
-    
-    <div class="rodape">
-        <p style="text-align: center; font-size: 15px;">&copy; Copyright - 2023 - Todos os direitos reservados - Pentagono Developers</p>
-    </div>
+
+    <footer class="rodape">
+        <p style="text-align: center; font-size: 15px;"><b>&copy; Copyright - 2023 - Todos os direitos reservados - Pentagono Developers <a href="quemsomos.php">Quem somos</a></b></p>
+    </footer>
+
 </body>
 
 <?php
