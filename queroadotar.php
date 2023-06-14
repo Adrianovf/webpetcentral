@@ -120,18 +120,8 @@
         <header>
             <nav>
                 <div class="logo">
-                    <img src="img/logonovo.png" style="width: 200px; height: auto;">
+                    <img src="img/letreiro.png" style="width: 200px; height: auto;">
                 </div>
-                <button class="botao" style="margin-left:1000px;">
-                    <b>Quero doar</b>
-                </button>
-                <button class="botao" style="margin-left:20px;">
-                    <b>Quero adotar</b>
-                </button>
-                <button class="botao" style="margin-left:20px;">
-                    <b>Entrar</b>
-                </button>
-
             </nav>
         </header>
         <!--fim navbar transparente-->

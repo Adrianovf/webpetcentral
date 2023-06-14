@@ -109,7 +109,7 @@
   <header>
     <nav>
         <div class="logo">
-            <img src="img/logonovo.png" style="width: 200px; height: auto;">
+            <img src="img/letreiro.png" style="width: 200px; height: auto;">
         </div>
 
         <div class="navbar">          
@@ -117,7 +117,7 @@
                 <b>Quero doar</b>
              </a>
 
-            <a href="cadastrar.html" class="botao" style="margin-right: 20px; background-color: rgb(180, 113, 180);">
+            <a href="cadastrar.php" class="botao" style="margin-right: 20px; background-color: rgb(180, 113, 180);">
                 <b>Cadastre-se</b>
             </a>
 
@@ -269,6 +269,6 @@
 
 
 <footer>
-    <p style="text-align: center; font-size: 15px;"><b>&copy; Copyright - 2023 - Todos os direitos reservados - Pentagono Developers <a href="quemsomos.html">Quem somos</a></b></p>
+    <p style="text-align: center; font-size: 15px;"><b>&copy; Copyright - 2023 - Todos os direitos reservados - Pentagono Developers <a href="quemsomos.php">Quem somos</a></b></p>
 </footer>
 

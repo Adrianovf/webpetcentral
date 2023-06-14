@@ -114,7 +114,7 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="img/logonovo.png" style="width: 200px; height: auto;">
+                <img src="img/letreiro.png" style="width: 200px; height: auto;">
             </div>        
         </nav>
     </header>
@@ -140,10 +140,6 @@
             <button class="botao">
                 <b>Entrar</b>
             </button>
-
-            <a href="cadastrar.html">
-                <button style="margin-left: 120px; margin-top: 20px;">Esqueceu a senha?<button>
-            </a>
             <br>
 
         </form>
@@ -151,7 +147,7 @@
             
             <h3 style="margin-left: 100px;"><b>Não tem uma conta?</b></h3>
 
-            <a href="cadastrar.html">
+            <a href="cadastrar.php">
                 <button style="margin-left: 150px; margin-top: 10px;">Clique aqui<button>
             </a>
 
@@ -159,7 +155,7 @@
     <br>
 
     <footer>
-    <p style="text-align: center; font-size: 15px;"><b>&copy; Copyright - 2023 - Todos os direitos reservados - Pentagono Developers <a href="quemsomos.html">Quem somos</a></b></p>
-</footer>
+        <p style="text-align: center; font-size: 15px;"><b>&copy; Copyright - 2023 - Todos os direitos reservados - Pentagono Developers <a href="quemsomos.html">Quem somos</a></b></p>
+    </footer>
 
 </body>
