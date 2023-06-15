@@ -14,7 +14,7 @@
         <form name="form1" method="GET" action="verCliente.php">
             <div>
                 <p>
-                    <label>Busca Cliente por Cpf ou pelo Nome:</label>
+                    <label>Busca Cliente por Nome:</label>
                     <input name="busca" type="text" autofocus/>
 
                     <label>&nbsp</label>
@@ -23,7 +23,6 @@
             </div>
         </form>
         <br>
-        <a href='adCliente.php'>Novo Cliente</a>
         <br><br>
         <table width='100%'>
             <tr bgcolor='fff000'>
@@ -31,8 +30,6 @@
                 <td><b>telefone</td>
                 <td><b>email</b></td>
                 <td><b>senha</td>
-                <td><b>confirmesenha</td>
-                
             </tr>
             <?php
                 //Inclui o arquivo de configuração
@@ -48,9 +45,7 @@
                     $nome               = isset($rs['nome']) ? $rs['nome'] : '';
                     $telefone           = isset($rs['telefone']) ? $rs['telefone'] : '';
                     $email              = isset($rs['email']) ? $rs['email'] : '';
-                    $senha              = isset($rs['senha']) ? $rs['senha'] : '';
-                    $confirmesenha      = isset($rs['confirmesenha']) ? $rs['confirmesenha'] : '';
-                    
+                    $senha              = isset($rs['senha']) ? $rs['senha'] : '';                    
                 ?>
                 
                 <tr>
@@ -58,11 +53,10 @@
                     <td><b><?php echo $telefone; ?></b></td>
                     <td><b><?php echo $email; ?></b></td>
                     <td><b><?php echo $senha; ?></td>
-                    <td><b><?php echo $confirmesenha; ?></b></td>
 
                         <center>
-                            <a href='upCliente.php?Cod_Cliente=<?php echo $codigo;?>' title='Editar'><img src='img/editar.png' width="20" height="20"></a>
-                            <a href='cliente.php?Cod_Cliente=<?php echo $codigo;?>&set=del' title='Excluir'><img src='img/deletar.png' width='20' height='20'></a>
+                            <a href='upCliente.php?Cod_Cliente=<?php echo $codigo;?>' title='Editar'><!--Caminho da imagem para editar--></a>
+                            <a href='cliente.php?Cod_Cliente=<?php echo $codigo;?>&set=del' title='Excluir'><!--Caminho da imagem para deletar--></a>
                         </center>
 
                     </td>

@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Pet Central-quero adotar</title>
+        <title>Pet Central-Quero adotar</title>
         <link rel="stylesheet" href="petcentral.css">
         <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 
@@ -131,36 +131,36 @@
                 
             <form action="cliente.php" method="POST">
 
-                <div class="input-group" style="margin-left: 80px;">
+                <div class="input-group">
                     <label class="label">Telefone</label>
                     <input autocomplete="off" name="endereco" id="endereco" class="input" type="text" maxlength="40">
                 </div>
 
-                 <div class="input-group" style="margin-left: 80px;">
+                 <div class="input-group">
                     <label class="label">E-mail</label>
                     <input autocomplete="off" name="cpf" id="cpf" class="input" type="text" maxlength="40">
                 </div>
 
-                <div class="input-group" style="margin-left: 80px;">
+                <div class="input-group">
                     <label class="label">Endereço</label>
                     <input autocomplete="off" name="cpf" id="cpf" class="input" type="text" maxlength="40">
                 </div>
 
-                <div class="input-group" style="margin-left: 80px;">
+                <div class="input-group">
                     <label class="label">Rua</label>
                     <input autocomplete="off" name="datanascimento" id="datanascimento" class="input" type="text" maxlength="40">
                 </div>
 
-                <div class="input-group" style="margin-left: 80px;">
+                <div class="input-group">
                     <label class="label">Cidade</label>
                     <input autocomplete="off" name="cpf" id="cpf" class="input" type="text" maxlength="40">
                 </div>
 
-                <div class="input-group" style="margin-left: 80px;">
+                <div class="input-group">
                     <label class="label">Estado</label>
                     <input autocomplete="off" name="telefone" id="telefone" class="input" type="text" maxlength="40">
                 </div>
-                <br>
+                <br><br>
 
                 <button class="botao">
                     <h4>Solicitar</h4>
@@ -169,9 +169,6 @@
             </form>
         </div>
     
-        <footer class="rodape">
-            <p style="text-align: center; font-size: 15px;"><b>&copy; Copyright - 2023 - Todos os direitos reservados - Pentagono Developers <a href="quemsomos.php">Quem somos</a></b></p>
-        </footer>
 
     </body>
 </html>

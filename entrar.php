@@ -123,12 +123,13 @@
         <h1 style="color: #152939; margin-left: 40px;">Acesse sua conta</h1>
         <br><br>
         <form action='queroadotar.php' method='POST'>
-            <div class="input-group" style="margin-left: 80px">
+            <div class="input-group">
                 <label class="label">Endereço de email</label>
                 <input autocomplete="off" name="email" id="email" class="input" type="email">
             </div>
+            <br>
 
-            <div class="input-group" style="margin-left: 80px">
+            <div class="input-group">
                 <label class="label">Senha</label>
                 <input autocomplete="off" name="senha" id="senha" class="input" type="password">
             </div>
@@ -140,19 +141,15 @@
             <br>
 
         </form>
-            <br>
+            <br><br><br>
             
-            <h3 style="margin-left: 100px;"><b>Não tem uma conta?</b></h3>
+            <h3 style="margin-left: 90px;"><b>Não tem uma conta?</b></h3>
 
             <a href="cadastrar.php">
-                <button style="margin-left: 150px; margin-top: 10px;">Clique aqui<button>
+                <button style="margin-left: 150px; margin-top: 10px; text-decoration: underline; text-align: center;">Clique aqui<button>
             </a>
 
     </div>
     <br>
-
-    <footer class="rodape">
-        <p style="text-align: center; font-size: 15px;"><b>&copy; Copyright - 2023 - Todos os direitos reservados - Pentagono Developers <a href="quemsomos.php">Quem somos</a></b></p>
-    </footer>
 
 </body>

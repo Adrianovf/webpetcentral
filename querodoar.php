@@ -113,45 +113,41 @@
 <!--fim navbar transparente-->
 
     <div class="container2">
-        <br><br>
-        <h2 style="color: #152939; text-align: center;">Cadastrar animal</h2>
         <br>
+        <h2 style="color: #152939; text-align: center;">Cadastrar animal</h2>
+        <br><br>
         <form action='queroadoar.php' method='POST'>
-            <div class="input-group" style="margin-left: 60px;">
-                <label class="label">Nome do animal:</label>
+            <div class="input-group">
+                <label class="label">Nome</label>
                 <input autocomplete="off" name="nomeanimal" id="nomeanimal" class="input" type="text">
             </div>   
-            <div class="input-group" style="margin-left: 60px;">
-                <label class="label">Idade do animal:</label>
+            <div class="input-group">
+                <label class="label">Idade</label>
                 <input autocomplete="off" name="idadeanimal" id="idadeanimal" class="input" type="text">
             </div>   
             
-            <div class="input-group" style="margin-left: 60px;">
-                <label class="label">Sexo do animal:</label>
+            <div class="input-group">
+                <label class="label">Sexo</label>
                 <input autocomplete="off" name="sexoanimal" id="sexoanimal" class="input" type="text">
             </div>   
             
-            <div class="input-group" style="margin-left: 60px;">
-                <label class="label">Descrição do animal</label>
+            <div class="input-group">
+                <label class="label">Descrição</label>
                 <input autocomplete="off" name="descricacaoanimal" id="descricaoanimal" class="input" type="text">
             </div>
 
-            <div class="input-group" style="margin-left: 60px;">
-                <label class="label">Situação do animal:</label>
+            <div class="input-group">
+                <label class="label">Situação</label>
                 <input autocomplete="off" name="situacaoanimal" id="situacaoanimal" class="input" type="text">
             </div>
-        <br>   
+        <br><br>
 
-            <button class="botao" style="margin-left: 100px;">
-                    <h4>Solicitar</h4>
+            <button class="botao">
+                    <h4>Cadastrar</h4>
             </button>
 
-        <br><br>
+        <br>
         </form> 
     </div>
-
-        <footer class="rodape">
-            <p style="text-align: center; font-size: 15px;"><b>&copy; Copyright - 2023 - Todos os direitos reservados - Pentagono Developers <a href="quemsomos.php">Quem somos</a></b></p>
-        </footer>
 
 </body>
