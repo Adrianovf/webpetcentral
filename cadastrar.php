@@ -140,7 +140,7 @@
                 </div>
                 
                 <div class="input-group">
-                    <label class="label">Confirmesenha</label>
+                    <label class="label">Confirme a senha</label>
                     <input autocomplete="off" name="confirmesenha" id="confirmesenha" class="input" type="password" maxlength="20">
                 </div>
                 <br><br>
