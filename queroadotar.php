@@ -115,7 +115,6 @@
     </head>
 
     <body>
-
         <!--navbar transparente-->
         <header>
             <nav>
@@ -131,34 +130,29 @@
                 
             <form action="cliente.php" method="POST">
 
-                <div class="input-group">
-                    <label class="label">Telefone</label>
-                    <input autocomplete="off" name="endereco" id="endereco" class="input" type="text" maxlength="40">
-                </div>
-
                  <div class="input-group">
                     <label class="label">E-mail</label>
-                    <input autocomplete="off" name="cpf" id="cpf" class="input" type="text" maxlength="40">
+                    <input autocomplete="off" name="email" id="email" class="input" type="text" maxlength="40">
                 </div>
 
                 <div class="input-group">
                     <label class="label">Endereço</label>
-                    <input autocomplete="off" name="cpf" id="cpf" class="input" type="text" maxlength="40">
+                    <input autocomplete="off" name="endereco" id="endereco" class="input" type="text" maxlength="40">
                 </div>
 
                 <div class="input-group">
                     <label class="label">Rua</label>
-                    <input autocomplete="off" name="datanascimento" id="datanascimento" class="input" type="text" maxlength="40">
+                    <input autocomplete="off" name="rua" id="rua" class="input" type="text" maxlength="40">
                 </div>
 
                 <div class="input-group">
                     <label class="label">Cidade</label>
-                    <input autocomplete="off" name="cpf" id="cpf" class="input" type="text" maxlength="40">
+                    <input autocomplete="off" name="cidade" id="cidade" class="input" type="text" maxlength="40">
                 </div>
 
                 <div class="input-group">
                     <label class="label">Estado</label>
-                    <input autocomplete="off" name="telefone" id="telefone" class="input" type="text" maxlength="40">
+                    <input autocomplete="off" name="estado" id="estado" class="input" type="text" maxlength="40">
                 </div>
                 <br><br>
 
@@ -168,7 +162,5 @@
                 <br>
             </form>
         </div>
-    
-
     </body>
 </html>
