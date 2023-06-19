@@ -187,11 +187,10 @@
           <h3 style="margin-left: 0px;">Idade</h3>
           <h3 style="margin-left: 0px;">Peso</h3>
           <h3 style="margin-left: 0px;">Raça</h3>
-          <a href="queroadotar.php" style="text-decoration: none; margin-left: 1000px;">
+          <a href="entrar.php" style="text-decoration: none; margin-left: 1000px;">
               <button class="botao">
                   <b>Quero adotar</b>
               </button>
-              
           </a>
           <!--fim do conteudo do container-->
           </div>
