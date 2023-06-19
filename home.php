@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
+
   <head>
       <meta charset="UTF-8">
       <title>Pet Central-Home</title>
@@ -7,7 +9,7 @@
       <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-
+      </head>
   <!--Nav bar transparente-->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,39 @@
   </style>
   <!--fim navbar transparente-->
 
-  </head>
+  <?php
+		// Inclui o arquivo de conexao
+		include('conexao.php');
+
+		// Inclui o arquivo de verificação de login
+		include('login/verifica_login.php');
+	
+			
+		// Se não for permitido acesso nenhum ao arquivo
+		// Inclua o trecho abaixo, ele redireciona o usuário para
+		// o formulário de login
+		include('login/redirect.php');
+		
+		//include('login/perfil_menu.php');
+	
+    	$usuario     =  $_SESSION['nome_usuario'];
+       
+		
+        $busca='';
+        if (isset($_GET['busca'])) $busca=$_GET['busca'];
+		
+		// Verifica se o usuário existe
+            $pdo_verifica = $conexao_pdo->prepare("SELECT * 
+                                                FROM cliente
+                                                WHERE nome LIKE '$busca%'");
+            $pdo_verifica->execute();
+			
+			// Captura os dados da linha
+            while ($rs = $pdo_verifica->fetch()){
+                   $nome_usuario = $rs['nome'];
+			}
+		
+  ?>
 
   <body>
     <!--inicio navbar transparente-->

@@ -1,4 +1,5 @@
 <?php
+
     $charset_db = 'UTF8';
 
     //variaveis da conexão
@@ -27,4 +28,5 @@
         //Mata o script
         die();
     }  
+
 ?>

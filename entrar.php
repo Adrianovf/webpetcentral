@@ -141,16 +141,13 @@
             <br>
 
         </form>
-            <br><br><br>
-            
-            <h3 style="margin-left: 90px;"><b>Não tem uma conta?</b></h3>
+        <br><br><br>
+        
+        <h3 style="margin-left: 90px;"><b>Não tem uma conta?</b></h3>
 
-            <a href="cadastrar.php">
-                <button style="margin-left: 150px; margin-top: 10px; text-decoration: underline; text-align: center;">Clique aqui<button>
-            </a>
-
-
+        <a href="cadastrar.php">
+            <button style="margin-left: 150px; margin-top: 10px; text-decoration: underline; text-align: center;">Clique aqui<button>
+        </a>
     </div>
     <br>
-
 </body>
