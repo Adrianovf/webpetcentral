@@ -101,16 +101,29 @@
         <!--fim navbar transparente-->
         <?php
             //Inclui o arquivo de configuração
-
             include('conexao.php');
 
             // Inclui o arquivo de verificação de login
             include('login/verifica_login.php');
-
+        
+                
             // Se não for permitido acesso nenhum ao arquivo
             // Inclua o trecho abaixo, ele redireciona o usuário para
             // o formulário de login
             include('login/redirect.php');
+            
+            //include('login/perfil_menu.php');
+            $logado      =  $_SESSION['logado'];
+            $usuario     =  $_SESSION['nome_usuario'];
+
+            // Faz a consulta do nome de usuário na base de dados
+            $pdo_checa_user = $conexao_pdo->prepare('SELECT * FROM cliente WHERE nome = ? LIMIT 1');
+            $verifica_pdo = $pdo_checa_user->execute( array( $usuario ) );
+	
+            $rs = $pdo_checa_user->fetch();
+
+            $cpf= $rs['cpf'];
+            $email= $rs['email'];
         ?>
     </head>
 
@@ -130,19 +143,24 @@
                 
             <form action="cliente.php" method="POST">
 
+                <div class="input-group">
+                    <label class="label">Data de nascimento</label>
+                    <input autocomplete="off" name="datanascimento" id="datanascimento" class="input" type="date">
+                </div>
+
+                <div class="input-group">
+                    <label class="label">CPF</label>
+                    <input autocomplete="off" name="cpf" id="cpf" class="input" type="text" maxlength="11">
+                </div>
+
                  <div class="input-group">
                     <label class="label">E-mail</label>
-                    <input autocomplete="off" name="email" id="email" class="input" type="text" maxlength="40">
+                    <input autocomplete="off" name="email" id="email" class="input" type="email" maxlength="40" value='<?php echo $email;?>'>
                 </div>
 
                 <div class="input-group">
-                    <label class="label">Endereço</label>
-                    <input autocomplete="off" name="endereco" id="endereco" class="input" type="text" maxlength="40">
-                </div>
-
-                <div class="input-group">
-                    <label class="label">Rua</label>
-                    <input autocomplete="off" name="rua" id="rua" class="input" type="text" maxlength="40">
+                    <label class="label">Estado</label>
+                    <input autocomplete="off" name="estado" id="estado" class="input" type="text" maxlength="40">
                 </div>
 
                 <div class="input-group">
@@ -151,8 +169,13 @@
                 </div>
 
                 <div class="input-group">
-                    <label class="label">Estado</label>
-                    <input autocomplete="off" name="estado" id="estado" class="input" type="text" maxlength="40">
+                    <label class="label">Rua</label>
+                    <input autocomplete="off" name="rua" id="rua" class="input" type="text" maxlength="40">
+                </div>
+
+                <div class="input-group">
+                    <label class="label">Nº</label>
+                    <input autocomplete="off" name="numero" id="numero" class="input" type="text" maxlength="4">
                 </div>
                 <br><br>
 

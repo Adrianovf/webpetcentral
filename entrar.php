@@ -107,7 +107,7 @@
 
 <body>
     
-  <!--navbar transparente-->
+    <!--navbar transparente-->
     <header>
         <nav>
             <div class="logo">
@@ -120,9 +120,12 @@
     <br>
     <div class="container1">
         <br><br>
+
         <h1 style="color: #152939; margin-left: 40px;">Acesse sua conta</h1>
         <br><br>
+
         <form action='home.php' method='POST'>
+
             <div class="input-group">
                 <label class="label">Endereço de email</label>
                 <input autocomplete="off" name="email" id="email" class="input" type="email">
@@ -148,6 +151,7 @@
         <a href="cadastrar.php">
             <button style="margin-left: 150px; margin-top: 10px; text-decoration: underline; text-align: center;">Clique aqui<button>
         </a>
+
     </div>
     <br>
 </body>

@@ -118,7 +118,7 @@
 		include('login/redirect.php');
 		
 		//include('login/perfil_menu.php');
-	
+      $logado      =  $_SESSION['logado'];
     	$usuario     =  $_SESSION['nome_usuario'];
        
 		
@@ -135,45 +135,43 @@
             while ($rs = $pdo_verifica->fetch()){
                    $nome_usuario = $rs['nome'];
 			}
-		
   ?>
 
   <body>
     <!--inicio navbar transparente-->
     <header>
       <nav>
-          <div class="logo">
-              <img src="img/letreiro2.png" style="width: 200px; height: auto;">
-          </div>
-
-          <div class="navbar">  
-
-              <a href="entrar.php" class="botao" style="margin-right: 10px;">
-                  <b>Entrar</b>
-              </a>
-
-              <a href="cadastrar.php" class="botao" style="margin-right: 10px;">
-                  <b>Cadastre-se</b>
-              </a>
-
-              <a href="querodoar.php" class="botao">
-                  <b>Quero doar</b>
-              </a>
-
-          </div>
+        <div class="logo">
+            <img src="img/letreiro2.png" style="width: 200px; height: auto;">
+        </div>
+        <div class="navbar">  
+          <a href="entrar.php" class="botao" style="margin-right: 10px;">
+            <b>Entrar</b>
+          </a>
+          <a href="cadastrar.php" class="botao" style="margin-right: 10px;">
+              <b>Cadastre-se</b>
+          </a>
+          <a href="querodoar.php" class="botao" style="margin-right: 10px;">
+            <b>Quero doar</b>
+          </a>
+            <img src="img/usuario.png" style="width: 50px; height: auto;">
+            <?php
+              echo $usuario;
+            ?>
+            <a href="#" class="botao">
+              <b>Sair</b>
+            </a>
+        </div>
       </nav>
-  </header>
-
-  <!--fim navbar transparente-->
+    </header>
+    <!--fim navbar transparente-->
       
       <script type="text/javascript">
         const toggleMenu = () => document.body.classList.toggle("open");
       </script>
-    
 
     <!-- incluindo o arquivo JavaScript do Bootstrap -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
 
     <div class="containergroup">
       <div class="row">
@@ -187,11 +185,24 @@
           <h3 style="margin-left: 0px;">Idade</h3>
           <h3 style="margin-left: 0px;">Peso</h3>
           <h3 style="margin-left: 0px;">Raça</h3>
-          <a href="entrar.php" style="text-decoration: none; margin-left: 1000px;">
-              <button class="botao">
-                  <b>Quero adotar</b>
-              </button>
-          </a>
+          <?php
+          if($logado==1) { ?>
+              <a href="queroadotar.php" style="text-decoration: none; margin-left: 1000px;">
+                  <button class="botao">
+                      <b>Quero adotar</b>
+                  </button>
+              </a>
+          <?php
+          } else {
+          ?>
+              <a href="entrar.php" style="text-decoration: none; margin-left: 1000px;">
+                  <button class="botao">
+                      <b>Quero adotar</b>
+                  </button>
+              </a>
+          <?php
+          }
+          ?>
           <!--fim do conteudo do container-->
           </div>
         </div>

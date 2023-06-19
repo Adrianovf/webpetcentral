@@ -4,3 +4,4 @@ if ( $_SESSION['logado'] != true ) {
 	echo "<script>alert('Usuário não encontrado!!!')</script>";
 	echo "<script>location.href='entrar.php'</script>";
 }
+?>
