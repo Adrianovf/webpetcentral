@@ -169,6 +169,7 @@
         const toggleMenu = () => document.body.classList.toggle("open");
       </script>
 
+<<<<<<< HEAD
 
         <div class="containerhome">
           <img src="img/cachorrohome.jpg" style="width: 250px; height: 250px; border-radius: 20px; justify-content: center;">
@@ -178,6 +179,14 @@
           <h3 style="margin-left: 0px;">Situação</h3>
           <h3 style="margin-left: 0px;">Descrição</h3>
 <!--
+=======
+    <div class="containergroup">
+      <div class="col-md-3">
+        <div class="containerhome">
+          <!-- Conteúdo do contêiner -->
+          <img src="img/cachorrohome.jpg" style="width: 250px; height: 250px; border-radius: 20px; justify-content: center;">
+          <img src="img/genfeminino.png" style="width: 40px; height: 40px; float: right; position: relative;">
+>>>>>>> 2666c5520850be56305c3a3ea42842eeb7d1fcf0
           <?php
           if($logado==1) { ?>
               <a href="queroadotar.php" style="text-decoration: none; margin-left: 1000px;">
@@ -196,8 +205,17 @@
           <?php
           }
           ?>
+<<<<<<< HEAD
 -->
         </div>
+=======
+          <!--fim do conteudo do container-->
+        </div>
+      </div>
+    </div>
+    
+
+>>>>>>> 2666c5520850be56305c3a3ea42842eeb7d1fcf0
 
       <footer class="rodape">
           <p style="text-align: center; font-size: 15px;"><b>&copy; Copyright - 2023 - Todos os direitos reservados - Pentagono Developers <a href="quemsomos.php" style="text-decoration: none;">Quem somos</a></b></p>
