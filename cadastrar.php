@@ -121,36 +121,49 @@
 
                 <div class="input-group">
                     <label class="label">Nome Completo</label>
-                    <input autocomplete="off" name="nomecompleto" id="nomecompleto" class="input" type="text" maxlength="40">
-                </div>
-                
-                <div class="input-group">
-                    <label class="label">Telefone</label>
-                    <input autocomplete="off" name="telefone" id="telefone" class="input" type="text" maxlength="11">   
-                </div>
-            
-                <div class="input-group">
-                    <label class="label">Email</label>
-                    <input autocomplete="off" name="email" id="email" class="input" type="email" maxlength="30">
+                    <input autocomplete="off" name="nomecompleto" id="nomecompleto" class="input" type="text" maxlength="100">
                 </div>
 
                 <div class="input-group">
-                    <label class="label">Senha</label>
-                    <input autocomplete="off" name="senha" id="senha" class="input" type="password" maxlength="20">
+                    <label class="label">Telefone</label>
+                    <input autocomplete="off" name="telefone" id="telefone" class="input" type="text" maxlength="12">
                 </div>
-                
+
                 <div class="input-group">
-                    <label class="label">Confirme a senha</label>
-                    <input autocomplete="off" name="confirmesenha" id="confirmesenha" class="input" type="password" maxlength="20">
+                    <label class="label">Email</label>
+                    <input autocomplete="off" name="email" id="email" class="input" type="email" maxlength="100">
+                </div>
+
+                <div class="input-group">
+                    <label class="label">Rua</label>
+                    <input autocomplete="off" name="rua" id="rua" class="input" type="text" maxlength="30">
+                </div>
+
+                <div class="input-group">
+                    <label class="label">Número</label>
+                    <input autocomplete="off" name="numero" id="numero" class="input" type="text" maxlength="30">
+                </div>
+
+                <div class="input-group">
+                    <label class="label">Bairro</label>
+                    <input autocomplete="off" name="bairro" id="bairro" class="input" type="text" maxlength="50">
+                </div>
+
+                <div class="input-group">
+                    <label class="label">Cidade</label>
+                    <input autocomplete="off" name="cidade" id="cidade" class="input" type="text" maxlength="30">
+                </div>
+
+                <div class="input-group">
+                    <label class="label">UF</label>
+                    <input autocomplete="off" name="uf" id="uf" class="input" type="text" maxlength="2">
                 </div>
                 <br><br>
 
                     <input type="hidden" name="set" value="insert">
                     <input type="submit" value="Cadastrar" class="botao">
-
             </form>
         </div>
-
     </body>
 
     <?php

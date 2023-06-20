@@ -14,7 +14,7 @@ if (isset($_GET['set'])) $set = $_GET['set'];
 
 if ($set=='insert') {
         if ($senha == $confirmesenha){
-        $pdo_insere = $conexao_pdo->prepare('INSERT INTO cliente (nome, telefone, email, senha )
+        $pdo_insere = $conexao_pdo->prepare('INSERT INTO cliente (nome_cliente, telefone, email, rua, senha )
         VALUES (?, ?, ?, ?)');
         $pdo_insere->execute(array($nomecompleto, $telefone, $email, $senha));
         sets();

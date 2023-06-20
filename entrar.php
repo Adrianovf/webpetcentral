@@ -128,13 +128,13 @@
 
             <div class="input-group">
                 <label class="label">Endereço de email</label>
-                <input autocomplete="off" name="email" id="email" class="input" type="email">
+                <input autocomplete="off" name="email" id="email" class="input" type="email" maxlength="25">
             </div>
             <br>
 
             <div class="input-group">
                 <label class="label">Senha</label>
-                <input autocomplete="off" name="senha" id="senha" class="input" type="password">
+                <input autocomplete="off" name="senha" id="senha" class="input" type="password" maxlength="25">
             </div>
             <br>
 
@@ -143,7 +143,6 @@
             </button>
             <br><br><br>
         
-
         </form>
         
         <h3 style="margin-left: 85px;"><b>Não tem uma conta?</b></h3>

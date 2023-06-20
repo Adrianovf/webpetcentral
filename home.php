@@ -164,7 +164,7 @@
       </nav>
     </header>
     <!--fim navbar transparente-->
-      
+    
       <script type="text/javascript">
         const toggleMenu = () => document.body.classList.toggle("open");
       </script>
@@ -187,9 +187,9 @@
           <?php
           if($logado==1) { ?>
               <a href="queroadotar.php" style="text-decoration: none; margin-left: 1000px;">
-                  <button class="botao">
-                      <b>Quero adotar</b>
-                  </button>
+                <button class="botao">
+                  <b>Quero adotar</b>
+                </button>
               </a>
           <?php
           } else {
@@ -205,7 +205,6 @@
           <!--fim do conteudo do container-->
           </div>
         </div>
-
 
         <div class="col-md-3">
           <div class="containerhome">
