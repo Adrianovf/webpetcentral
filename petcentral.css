@@ -34,8 +34,6 @@ body {
 	box-shadow: 0 4px 15px 0 rgba(0,0,0,0.7), 0 4px 15px 0 rgba(0,0,0,0.7);
 }
 
-
-/* inicio formatação do containers no home*/
 .containergroup {
   display: flex;
   flex-wrap: wrap;
@@ -57,7 +55,6 @@ body {
   border-color: #502917;
   border-style: groove;
 }
-/* fim da formatação dos containers do home */
 
 h3{
 	font-weight: normal;
