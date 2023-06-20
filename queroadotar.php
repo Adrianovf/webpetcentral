@@ -99,6 +99,7 @@
             }
         </style>
         <!--fim navbar transparente-->
+
         <?php
             //Inclui o arquivo de configuração
             include('conexao.php');
@@ -138,9 +139,8 @@
         </header>
         <!--fim navbar transparente-->
         <div class="containerqueroadotar">
-                <h2 style="color: #152939;text-align: center; margin-top: 20px;">Informações</h2>
-                <br>
-                
+            <h2 style="color: #152939;text-align: center; margin-top: 20px;">Informações</h2>
+            <br>
             <form action="cliente.php" method="POST">
 
                 <div class="input-group">
@@ -153,7 +153,7 @@
                     <input autocomplete="off" name="cpf" id="cpf" class="input" type="text" maxlength="11">
                 </div>
 
-                 <div class="input-group">
+                <div class="input-group">
                     <label class="label">E-mail</label>
                     <input autocomplete="off" name="email" id="email" class="input" type="email" maxlength="40" value='<?php echo $email;?>'>
                 </div>
@@ -183,7 +183,8 @@
                     <h4>Solicitar</h4>
                 </button>
                 <br>
-            </form>
+            </form>            
+
         </div>
     </body>
 </html>

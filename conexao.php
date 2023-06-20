@@ -17,12 +17,12 @@
     $charset_db = 'UTF8';
 
     //variaveis da conexão
-    $base_dados = 'testepet';
+    $base_dados = 'petcentral10';
     $usuario_bd = 'root';
     $senha_bd   = '';
     $host_db    = 'localhost';
 
-    //Concanetação das variáveis para detalhes da classe PDO
+    //Concatenação das variáveis para detalhes da classe PDO
     $detalhes_pdo = 'mysql:host=' . $host_db . ';';
     $detalhes_pdo .= 'dbname=' . $base_dados . ';';
     $detalhes_pdo .= 'charset=' . $charset_db . ';';

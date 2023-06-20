@@ -119,7 +119,7 @@
 
     <br>
     <div class="container1">
-        <br><br>
+        <br>
 
         <h1 style="color: #152939; margin-left: 40px;">Acesse sua conta</h1>
         <br><br>
@@ -128,30 +128,29 @@
 
             <div class="input-group">
                 <label class="label">Endereço de email</label>
-                <input autocomplete="off" name="email" id="email" class="input" type="email">
+                <input autocomplete="off" name="email" id="email" class="input" type="email" maxlength="25">
             </div>
             <br>
 
             <div class="input-group">
                 <label class="label">Senha</label>
-                <input autocomplete="off" name="senha" id="senha" class="input" type="password">
+                <input autocomplete="off" name="senha" id="senha" class="input" type="password" maxlength="25">
             </div>
             <br>
 
             <button class="botao">
                 <b>Entrar</b>
             </button>
-            <br>
-
-        </form>
-        <br><br><br>
+            <br><br><br>
         
-        <h3 style="margin-left: 90px;"><b>Não tem uma conta?</b></h3>
+        </form>
+        
+        <h3 style="margin-left: 85px;"><b>Não tem uma conta?</b></h3>
 
         <a href="cadastrar.php">
-            <button style="margin-left: 150px; margin-top: 10px; text-decoration: underline; text-align: center;">Clique aqui<button>
+            <b style="margin-left: 135px; margin-top: 10px; text-decoration: underline; text-align: center;">Clique aqui</b>
         </a>
+        <br>
 
     </div>
-    <br>
 </body>

@@ -124,21 +124,26 @@
             <div class="input-group">
                 <label class="label">Idade</label>
                 <input autocomplete="off" name="idadeanimal" id="idadeanimal" class="input" type="text">
-            </div>   
+            </div>
             
             <div class="input-group">
                 <label class="label">Sexo</label>
                 <input autocomplete="off" name="sexoanimal" id="sexoanimal" class="input" type="text">
+            </div>
+            
+            <div class="input-group">
+                <label class="label">Situação</label>
+                <input autocomplete="off" name="situacao" id="situacao" class="input" type="text">
             </div>   
             
             <div class="input-group">
                 <label class="label">Descrição</label>
-                <input autocomplete="off" name="descricacaoanimal" id="descricaoanimal" class="input" type="text">
+                <input autocomplete="off" name="descricao" id="descricao" class="input" type="text">
             </div>
 
             <div class="input-group">
-                <label class="label">Situação</label>
-                <input autocomplete="off" name="situacaoanimal" id="situacaoanimal" class="input" type="text">
+                <label class="label">Categoria</label>
+                <input autocomplete="off" name="categoria" id="categoria" class="input" type="text">
             </div>
         <br><br>
 

@@ -30,7 +30,8 @@ if (isset($dados_usuario['email']) && isset($dados_usuario['senha']) && ! empty(
 	if (  $dados_usuario['senha'] == $fetch_usuario['senha'] ) {
 		// O usuário está logado
 		$_SESSION['logado']          = true;
-		$_SESSION['nome_usuario']    = $fetch_usuario['nome'];
+		$_SESSION['nome_usuario'] = $fetch_usuario['nome'];
+		
 
 	} else {
 		// Continua deslogado
