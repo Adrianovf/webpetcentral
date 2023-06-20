@@ -17,7 +17,7 @@
     $charset_db = 'UTF8';
 
     //variaveis da conexão
-    $base_dados = 'testepet';
+    $base_dados = 'petcentral10';
     $usuario_bd = 'root';
     $senha_bd   = '';
     $host_db    = 'localhost';
