@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-
   <head>
       <meta charset="UTF-8">
       <title>Pet Central-Home</title>
@@ -145,7 +144,7 @@
             <img src="img/letreiro2.png" style="width: 200px; height: auto;">
         </div>
         <div class="navbar">  
-          <a href="entrar.php" class="botao" style="margin-right: 10px;">
+          <a href="entrar.php" class="botao" style="margin-right: 10px; ">
             <b>Entrar</b>
           </a>
           <a href="cadastrar.php" class="botao" style="margin-right: 10px;">
@@ -154,13 +153,13 @@
           <a href="querodoar.php" class="botao" style="margin-right: 10px;">
             <b>Quero doar</b>
           </a>
-            <img src="img/usuario.png" style="width: 50px; height: auto;">
-            <?php
-              echo $usuario;
-            ?>
-            <a href="#" class="botao">
-              <b>Sair</b>
-            </a>
+          <img src="img/usuario.png" style="width: 50px; height: auto;">
+          <?php
+            echo $usuario;
+          ?>
+            <button class="botao">
+              Sair
+            </button>
         </div>
       </nav>
     </header>

@@ -22,7 +22,7 @@
     $senha_bd   = '';
     $host_db    = 'localhost';
 
-    //Concanetação das variáveis para detalhes da classe PDO
+    //Concatenação das variáveis para detalhes da classe PDO
     $detalhes_pdo = 'mysql:host=' . $host_db . ';';
     $detalhes_pdo .= 'dbname=' . $base_dados . ';';
     $detalhes_pdo .= 'charset=' . $charset_db . ';';
