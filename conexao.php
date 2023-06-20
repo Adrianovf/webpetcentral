@@ -41,6 +41,5 @@
         
         //Mata o script
         die();
-    }  
-
+    }
 ?>
