@@ -170,7 +170,7 @@
       </script>
 
         <div class="containerhome">
-          <img class="img" src="img/cachorrohome.jpg" style="width: 250px; height: 250px; border-radius: 20px; justify-content: center;">
+          <img class="img" src="img/cachorrohome.jpg" style="width: 250px; height: auto; border-radius: 20px; justify-content: center;">
           <h3 style="margin-left: 0px;">Nome</h3>
           <h3 style="margin-left: 0px;">Idade</h3>
           <h3 style="margin-left: 0px;">Sexo</h3>
