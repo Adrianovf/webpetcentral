@@ -1,6 +1,6 @@
 <?php
  function sets() {
-    echo"<script>alert('Conta cadastrada com Sucesso!')</script>";
+    echo"<script>alert('Operação realizada com sucesso!')</script>";
     echo"<script>location.href='home.php'</script>";
 }
 function del() {

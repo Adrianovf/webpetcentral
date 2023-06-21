@@ -170,12 +170,17 @@
       </script>
 
         <div class="containerhome">
-          <img class="img" src="img/cachorrohome.jpg" style="width: 250px; height: auto; border-radius: 20px; justify-content: center;">
+          <img src="img/cachorrohome.jpg" alt="imgpet">
           <h3 style="margin-left: 0px;">Nome</h3>
           <h3 style="margin-left: 0px;">Idade</h3>
           <h3 style="margin-left: 0px;">Sexo</h3>
           <h3 style="margin-left: 0px;">Situação</h3>
           <h3 style="margin-left: 0px;">Descrição</h3>
+          <br><br>
+          <a href="queroadotar.php">
+            <button class="botao"><b>Quero adotar<b></button>
+          </a>
+          <br>
 <!--          
           <?php
           if($logado==1) { ?>

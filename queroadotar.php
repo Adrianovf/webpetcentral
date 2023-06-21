@@ -100,7 +100,7 @@
         </style>
         <!--fim navbar transparente-->
 
-        <?php
+            <?php/*
             //Inclui o arquivo de configuração
             include('conexao.php');
 
@@ -124,8 +124,9 @@
             $rs = $pdo_checa_user->fetch();
 
             $cpf= $rs['cpf'];
-            $email= $rs['email'];
+            $email= $rs['email'];*/
         ?>
+
     </head>
 
     <body>
@@ -139,7 +140,7 @@
         </header>
         <!--fim navbar transparente-->
         <div class="containerqueroadotar">
-            <h2 style="color: #152939;text-align: center; margin-top: 20px;">Informações</h2>
+            <h2 style="color: #152939;text-align: center; margin-top: 20px;">Informações do cliente</h2>
             <br>
             <form action="cliente.php" method="POST">
 
@@ -185,6 +186,22 @@
                 <br>
             </form>            
 
+        </div>
+
+        <div class="containerqueroadotar">
+        <h2 style="color: #152939;text-align: center; margin-top: 20px;">Informações do pedido</h2>
+            <br>
+            <form action="cliente.php" method="POST">
+
+                <div class="input-group">
+                    <label class="label">Data do pedido</label>
+                    <input autocomplete="off" name="datapedido" id="datapedido" class="input" type="date">
+                </div>
+
+                <div class="input-group">
+                    <label class="label">Status do pedido</label>
+                    <input autocomplete="off" name="statuspedido" id="statuspedido" class="input" type="date">
+                </div>
         </div>
     </body>
 </html>

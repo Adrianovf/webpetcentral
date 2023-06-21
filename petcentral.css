@@ -48,7 +48,7 @@ body {
 .img{
   max-width: 80%;
   max-height: 80%;
-  width: 300px;
+  width: 5px;
   height: auto;
   justify-content: center;
 }
@@ -93,7 +93,7 @@ h3{
 
 /* formatação da entrada de texto */
 .input {
-  max-width: 190px;
+  max-width: 90%;
   height: 44px;
   background-color: rgba(52, 177, 182, 0.376);
   border-radius: .5rem;
@@ -139,16 +139,17 @@ text-align: center;
 }
 
 .containerqueroadotar{
+  display: inline-flex;
   background-color: #ecdfdf;
   justify-content: center;
-  margin-top: 20px;
-	margin-left: auto;
 	margin-right: auto;
+  margin-left: auto;
+  align-items: center;
 	width: 400px;
 	height: auto;
 	padding: 20px;
 	border-radius: 25px 25px 25px 25px;
-	box-shadow: 0 4px 15px 0 rgba(0,0,0,0.7), 0 4px 15px 0 rgba(0,0,0,0.7);
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.7), 0 4px 10px 0 rgba(0,0,0,0.7);
 }
 
 .rodape{
