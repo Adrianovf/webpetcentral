@@ -178,7 +178,7 @@
           <h3>Descrição</h3>
           <br><br>
           <a href="queroadotar.php" style="margin-right: 20px;">
-            <button class="botao"><b>Quero adotar<b></button>
+            <button class="botao" style="margin-left: 20px;"><b>Quero adotar<b></button>
           </a>
           <br>
 <!--          

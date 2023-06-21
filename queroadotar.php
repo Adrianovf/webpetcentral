@@ -139,69 +139,53 @@
             </nav>
         </header>
         <!--fim navbar transparente-->
+
         <div class="containerqueroadotar">
-            <h2 style="color: #152939;text-align: center; margin-top: 20px;">Informações do cliente</h2>
+            <h2 style="text-align: center;"><u>Informações do pet</u></h2>
             <br>
             <form action="cliente.php" method="POST">
 
-                <div class="input-group">
-                    <label class="label">Data de nascimento</label>
-                    <input autocomplete="off" name="datanascimento" id="datanascimento" class="input" type="date">
+                <div class="input-group" style="margin-top: 10px">
+                    <label class="label">Nome:</label>
+                    <input autocomplete="off" name="nome_pet" id="nome_pet" class="input" type="text">
                 </div>
 
-                <div class="input-group">
-                    <label class="label">CPF</label>
-                    <input autocomplete="off" name="cpf" id="cpf" class="input" type="text" maxlength="11">
+                <div class="input-group" style="margin-top: 10px">
+                    <label class="label">Idade:</label>
+                    <input autocomplete="off" name="idade_pet" id="idade_pet" class="input" type="text">
                 </div>
 
-                <div class="input-group">
-                    <label class="label">E-mail</label>
-                    <input autocomplete="off" name="email" id="email" class="input" type="email" maxlength="40" value='<?php echo $email;?>'>
+                <div class="input-group" style="margin-top: 10px">
+                    <label class="label">Sexo:</label>
+                    <input autocomplete="off" name="sexo" id="sexo" class="input" type="text">
                 </div>
 
-                <div class="input-group">
-                    <label class="label">Estado</label>
-                    <input autocomplete="off" name="estado" id="estado" class="input" type="text" maxlength="40">
+                <div class="input-group" style="margin-top: 10px">
+                    <label class="label">Situação:</label>
+                    <input autocomplete="off" name="situacao_pet" id="situacao_pet" class="input" type="text">
                 </div>
 
-                <div class="input-group">
-                    <label class="label">Cidade</label>
-                    <input autocomplete="off" name="cidade" id="cidade" class="input" type="text" maxlength="40">
+                <div class="input-group" style="margin-top: 10px">
+                    <label class="label">Descrição:</label>
+                    <input autocomplete="off" name="descricao_pet" id="descricao_pet" class="input" type="text">
                 </div>
 
-                <div class="input-group">
-                    <label class="label">Rua</label>
-                    <input autocomplete="off" name="rua" id="rua" class="input" type="text" maxlength="40">
+                <div class="input-group" style="margin-top: 10px">
+                    <label class="label">Data de cadastro:</label>
+                    <input autocomplete="off" name="data_cadastro" id="data_cadastro" class="input" type="text">
                 </div>
 
-                <div class="input-group">
-                    <label class="label">Nº</label>
-                    <input autocomplete="off" name="numero" id="numero" class="input" type="text" maxlength="4">
+                <div class="input-group" style="margin-top: 10px">
+                    <label class="label">Categoria:</label>
+                    <input autocomplete="off" name="categoria" id="categoria" class="input" type="text">
                 </div>
                 <br><br>
 
                 <button class="botao">
-                    <h4>Solicitar</h4>
+                    <h4>Realizar pedido de adoção</h4>
                 </button>
                 <br>
-            </form>            
-
-        </div>
-
-        <div class="containerqueroadotar">
-        <h2 style="color: #152939;text-align: center; margin-top: 20px;">Informações do pedido</h2>
-            <br>
-            <form action="cliente.php" method="POST">
-
-                <div class="input-group">
-                    <label class="label">Data do pedido</label>
-                    <input autocomplete="off" name="datapedido" id="datapedido" class="input" type="date">
-                </div>
-
-                <div class="input-group">
-                    <label class="label">Status do pedido</label>
-                    <input autocomplete="off" name="statuspedido" id="statuspedido" class="input" type="date">
-                </div>
+            </form>
         </div>
     </body>
 </html>

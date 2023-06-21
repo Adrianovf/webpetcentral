@@ -116,7 +116,7 @@
 
         <div class="container2">
             <h2 style="color: #152939; margin-left: 40px; margin-top: 30px;">Cadastrar sua conta</h2>
-            <br>
+            <br><br>
             <form action="cliente.php" method="POST">
 
                 <div class="input-group">
