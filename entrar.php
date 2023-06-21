@@ -111,7 +111,12 @@
         <nav>
             <div class="logo">
                 <img src="img/letreiro2.png" style="width: 200px; height: auto;">
-            </div>        
+            </div>
+            <div class="navbar">  
+                <a href="home.php" class="botao" style="margin-right: 20px;">
+                    <b>Home</b>
+                </a>
+            </div> 
         </nav>
     </header>
     <!--fim navbar transparente-->

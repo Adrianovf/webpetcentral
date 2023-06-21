@@ -145,6 +145,8 @@
             <br>
             <form action="cliente.php" method="POST">
 
+            <img src="img/cachorrohome.jpg" alt="imgpet" class="img">
+
                 <div class="input-group" style="margin-top: 10px">
                     <label class="label">Nome:</label>
                     <input autocomplete="off" name="nome_pet" id="nome_pet" class="input" type="text">
