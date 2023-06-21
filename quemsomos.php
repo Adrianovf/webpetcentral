@@ -123,7 +123,7 @@
 
         <div class="containerquemsomos">
             <h1 style="color: #152939; text-align: center; margin-top: 50px;"><u>Quem somos nós?</u></h1>
-            <h2 style="color: #152939; text-align: center; margin-top: 30px;">Nós somos a petcentral um sistema mediador 
+            <h2 style="color: #152939; text-align: center; margin-top: 30px;">Nós somos a petcentral, um sistema mediador 
             de adoção e doação de pets, integrado a plataforma android, site e módulo desktop, desenvolvido pela Equipe Pentágono, 
             grupo integrado por alunos do terceiro módulo do curso Técnico de Informática da FAETEC - Maria Mercedes Mendes Teixeira. 
 

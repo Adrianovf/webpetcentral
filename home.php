@@ -171,11 +171,11 @@
 
         <div class="containerhome">
           <img src="img/cachorrohome.jpg" alt="imgpet" class="img">
-          <h3 class="dadospet">Nome</h3>
-          <h3 class="dadospet">Idade</h3>
-          <h3 class="dadospet">Sexo</h3>
-          <h3 class="dadospet">Situação</h3>
-          <h3 class="dadospet">Descrição</h3>
+          <h3>Nome</h3>
+          <h3>Idade</h3>
+          <h3>Sexo</h3>
+          <h3>Situação</h3>
+          <h3>Descrição</h3>
           <br><br>
           <a href="queroadotar.php" style="margin-right: 20px;">
             <button class="botao"><b>Quero adotar<b></button>

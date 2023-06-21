@@ -72,11 +72,6 @@ body {
   border-style: groove;
 }
 
-.dadospet{
-  display: flex;
-  align-items: center;
-}
-
 .containerqueroadotar{
   display: inline-flex;
   background-color: #ecdfdf;
