@@ -46,26 +46,49 @@ body {
 }*/
 
 .img{
+  display: flex;
+  justify-content: center;
   max-width: 80%;
   max-height: 80%;
-  width: 5px;
+  width: 150px;
   height: auto;
-  justify-content: center;
+  padding: 10px;
+	border-radius: 25px 25px 25px 25px;
 }
 
 .containerhome {
+  display: inline-flex;
+  justify-content: center;
   background-color: #ecdfdf;
-  width: 300px; 
+  width: auto; 
   height: auto;
   max-width: 90%;
   max-height: 90%;
-  justify-content: center;
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px;
   border-color: #502917;
   border-style: groove;
+}
+
+.dadospet{
+  display: flex;
+  align-items: center;
+}
+
+.containerqueroadotar{
+  display: inline-flex;
+  background-color: #ecdfdf;
+  justify-content: center;
+	margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+	width: 400px;
+	height: auto;
+	padding: 20px;
+	border-radius: 25px 25px 25px 25px;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.7), 0 4px 10px 0 rgba(0,0,0,0.7);
 }
 
 h3{
@@ -76,7 +99,6 @@ h3{
 
 /*inicio da formatação do botão */
 .botao {
-  transition: all 0.2s ease-in;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -136,20 +158,6 @@ text-align: center;
 	padding: 20px;
 	border-radius: 25px 25px 25px 25px;
 	box-shadow: 0 4px 15px 0 rgba(0,0,0,0.7), 0 4px 15px 0 rgba(0,0,0,0.7);
-}
-
-.containerqueroadotar{
-  display: inline-flex;
-  background-color: #ecdfdf;
-  justify-content: center;
-	margin-right: auto;
-  margin-left: auto;
-  align-items: center;
-	width: 400px;
-	height: auto;
-	padding: 20px;
-	border-radius: 25px 25px 25px 25px;
-	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.7), 0 4px 10px 0 rgba(0,0,0,0.7);
 }
 
 .rodape{

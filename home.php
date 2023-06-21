@@ -170,14 +170,14 @@
       </script>
 
         <div class="containerhome">
-          <img src="img/cachorrohome.jpg" alt="imgpet">
-          <h3 style="margin-left: 0px;">Nome</h3>
-          <h3 style="margin-left: 0px;">Idade</h3>
-          <h3 style="margin-left: 0px;">Sexo</h3>
-          <h3 style="margin-left: 0px;">Situação</h3>
-          <h3 style="margin-left: 0px;">Descrição</h3>
+          <img src="img/cachorrohome.jpg" alt="imgpet" class="img">
+          <h3 class="dadospet">Nome</h3>
+          <h3 class="dadospet">Idade</h3>
+          <h3 class="dadospet">Sexo</h3>
+          <h3 class="dadospet">Situação</h3>
+          <h3 class="dadospet">Descrição</h3>
           <br><br>
-          <a href="queroadotar.php">
+          <a href="queroadotar.php" style="margin-right: 20px;">
             <button class="botao"><b>Quero adotar<b></button>
           </a>
           <br>
