@@ -11,6 +11,7 @@
     $id_usuario=$_SESSION['user_id'];
     $usuario=$_SESSION['nome_usuario'];
     $nivel=$_SESSION['nivel_usuario'];
+
 /*    
     if ($nivel==1) {
         echo "Administrador: ".$usuario;
@@ -20,5 +21,4 @@
         echo "Operador: ".$usuario;
     }
   */
-    
 ?>

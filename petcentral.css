@@ -34,27 +34,15 @@ body {
 	box-shadow: 0 4px 15px 0 rgba(0,0,0,0.7), 0 4px 15px 0 rgba(0,0,0,0.7);
 }
 
-/*.containergroup {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; 
-  align-items: center; 
-  margin-top: 50px;
-  max-width: 1200px; 
-  margin-left: auto;
-  margin-right: auto;
-}*/
-
 .img{
 	border-radius: 25px;
   border: 5px;
   border-color: #000000;
-  max-width: 80%;
-  max-height: 80%;
-  width: 200px;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
   height: auto;
   padding: 8px;
-  margin-right: auto;
 }
 
 .containerhome {
@@ -68,14 +56,13 @@ body {
   max-height: 90%;
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 25px;
-  border-color: #502917;
   border-style: groove;
+  border-color: #502917;
 }
 
 .containerqueroadotar{
+  display: inline-flex;
   justify-content: center;
   margin-top: 30px;
   margin-left: auto;
@@ -97,7 +84,6 @@ h3{
 	margin-left: 40px;
 }
 
-/*inicio da formatação do botão */
 .botao {
   text-decoration: none;
   font-weight: bold;
@@ -122,18 +108,11 @@ h3{
   transition: background-color 0.3s;
 }
 
-/* fim da formatação do botão */
-
-/* formatação da entrada de texto */
-.input {
-  max-width: 90%;
-  height: 44px;
-  background-color: rgba(52, 177, 182, 0.376);
-  border-radius: .5rem;
-  padding: 0 1rem;
-  border: 2px solid transparent;
-  font-size: 1rem;
-  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+.motivopet{
+  max-width: 80%;
+  min-height: 80%;
+  width: 230px;
+  height: 150px;
 }
 
 .label {
@@ -143,6 +122,18 @@ h3{
   font-size: medium;
   font-weight: bold;
   color: #000000d3;
+}
+
+.input {
+  max-width: 95%;
+  max-height: 95%;
+  width: auto;
+  height: auto;
+  background-color: rgba(52, 177, 182, 0.376);
+  border-radius: .5rem;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
 }
 
 .input-group{
@@ -157,7 +148,6 @@ text-align: center;
 .input-group:hover .label, .input:focus {
   color: #000000d3;
 }
-/* fim formatação da entrada de texto */
 
 .containerquemsomos {
   background-color: #ecdfdf;

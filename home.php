@@ -103,7 +103,7 @@
   </style>
   <!--fim navbar transparente-->
 
-  <?php/*
+  <?php
 		// Inclui o arquivo de conexao
 		include('conexao.php');
 
@@ -126,14 +126,9 @@
 		
 		// Verifica se o usuário existe
             $pdo_verifica = $conexao_pdo->prepare("SELECT * 
-                                                FROM cliente
-                                                WHERE nome LIKE '$busca%'");
+                                                FROM pet");
             $pdo_verifica->execute();
 			
-			// Captura os dados da linha
-            while ($rs = $pdo_verifica->fetch()){
-                   $nome_usuario = $rs['nome'];
-			}*/
   ?>
 
   <body>
@@ -157,9 +152,9 @@
           <?php
             echo $usuario;
           ?>
-            <button class="botao">
-              Sair
-            </button>
+          <button class="botao">
+            Sair
+          </button>
         </div>
       </nav>
     </header>
@@ -168,41 +163,55 @@
       <script type="text/javascript">
         const toggleMenu = () => document.body.classList.toggle("open");
       </script>
+      <?php
+			// Captura os dados da linha
+      while ($rs = $pdo_verifica->fetch()){
+              $nome_pet       = $rs['nome_pet'];
+              $idade_pet      = $rs['idade_pet'];
+              $sexo           = $rs['sexo'];
+              $situacao_pet   = $rs['situacao_pet'];
+              $descricao_pet  = $rs['descricao_pet'];
+			?>
+          <div class="containerhome">
+            <div class='img'>
+                <img src="img/cachorrohome.jpg" alt="imgpet" class="img">
+            </div>
+            <div class="input-group">
+                <label class="label">Nome:</label>
+                <input autocomplete="off" name="nome" id="nome" class="input" type="text" maxlength="25" readonly = 'true' value='<?php echo $nome_pet;?>'>
+            </div>
+            <div class="input-group">
+                <label class="label">Idade:</label>
+                <input autocomplete="off" name="idade" id="idade" class="input" type="text" maxlength="25" readonly = 'true' value='<?php echo $idade_pet;?>'>
+            </div>
+            <div class="input-group">
+                <label class="label">Sexo:</label>
+                <input autocomplete="off" name="sexo" id="sexo" class="input" type="text" maxlength="25" readonly = 'true' value='<?php echo $sexo;?>'>
+            </div>
 
-        <div class="containerhome">
-          <img src="img/cachorrohome.jpg" alt="imgpet" class="img">
-          <h3>Nome</h3>
-          <h3>Idade</h3>
-          <h3>Sexo</h3>
-          <h3>Situação</h3>
-          <h3>Descrição</h3>
-          <br><br>
-          <a href="queroadotar.php" style="margin-right: 20px;">
-            <button class="botao" style="margin-left: 20px;"><b>Quero adotar<b></button>
-          </a>
-          <br>
-<!--          
-          <?php
-          if($logado==1) { ?>
-              <a href="queroadotar.php" style="text-decoration: none; margin-left: 1000px;">
-                <button class="botao">
-                  <b>Quero adotar</b>
-                </button>
-              </a>
-          <?php
-          } else {
-          ?>
+            <?php
+            if($logado==1) { ?>
+                <a href="queroadotar.php" style="text-decoration: none; margin-left: 1000px;">
+                  <button class="botao">
+                    <b>Quero adotar</b>
+                  </button>
+                </a>
+            <?php
+            } else {
+            ?>
               <a href="entrar.php" style="text-decoration: none; margin-left: 1000px;">
                   <button class="botao">
                       <b>Quero adotar</b>
                   </button>
               </a>
-          <?php
-          }
-          ?>
--->          
-        </div>
-  
+            <?php
+            }
+            ?>
+            
+          </div>
+      <?php
+      }
+      ?>
 
     <footer class="rodape">
       <p style="text-align: center; font-size: 15px;">

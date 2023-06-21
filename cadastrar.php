@@ -121,7 +121,7 @@
 
                 <div class="input-group">
                     <label class="label">Nome Completo</label>
-                    <input autocomplete="off" name="nomecompleto" id="nomecompleto" class="input" type="text" maxlength="100">
+                    <input autocomplete="off" name="nome_cliente" id="nome_cliente" class="input" type="text" maxlength="100">
                 </div>
 
                 <div class="input-group">

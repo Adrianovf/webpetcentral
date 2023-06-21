@@ -116,13 +116,14 @@
             <h2 style="color: #152939; text-align: center;">Cadastrar animal</h2>
             <br><br>
             <form action='querodoar.php' method='POST'>
+
                 <div class="input-group">
                     <label class="label">Nome</label>
-                    <input autocomplete="off" name="nome" id="nome" class="input" type="text">
+                    <input autocomplete="off" name="nome_pet" id="nome_pet" class="input" type="text">
                 </div>   
                 <div class="input-group">
                     <label class="label">Idade</label>
-                    <input autocomplete="off" name="idade" id="idade" class="input" type="text">
+                    <input autocomplete="off" name="idade_pet" id="idade_pet" class="input" type="text">
                 </div>
                 
                 <div class="input-group">
@@ -132,12 +133,17 @@
                 
                 <div class="input-group">
                     <label class="label">Situação</label>
-                    <input autocomplete="off" name="situacao" id="situacao" class="input" type="text">
+                    <input autocomplete="off" name="situacao_pet" id="situacao_pet" class="input" type="text">
                 </div>   
                 
                 <div class="input-group">
                     <label class="label">Descrição</label>
-                    <input autocomplete="off" name="descricao" id="descricao" class="input" type="text">
+                    <input autocomplete="off" name="descricao_pet" id="descricao_pet" class="input" type="text">
+                </div>
+                
+                <div class="input-group">
+                    <label class="label">Data decadastro</label>
+                    <input autocomplete="off" name="data_cadastro" id="data_cadastro" class="input" type="text">
                 </div>
 
                 <div class="input-group">
@@ -149,22 +155,20 @@
                         <h4>Cadastrar</h4>
                 </button>
                 <br>
-
             </form> 
         </div>
-
     </body>
     <?php
-        //Inclui o arquivo de configuração
+    //Inclui o arquivo de configuração
 
-        include('conexao.php');
-        include('alertas.php')
-        // Inclui o arquivo de verificação de login
-            //include('login/verifica_login.php');
+    include('conexao.php');
 
-        // Se não for permitido acesso nenhum ao arquivo
-        // Inclua o trecho abaixo, ele redireciona o usuário para
-        // o formulário de login
-            //include('login/redirect.php');
+    // Inclui o arquivo de verificação de login
+    include('login/verifica_login.php');
+
+    // Se não for permitido acesso nenhum ao arquivo
+    // Inclua o trecho abaixo, ele redireciona o usuário para
+    // o formulário de login
+        //include('login/redirect.php');
     ?>
 </html>

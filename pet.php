@@ -14,9 +14,9 @@ if (isset($_POST['set'])) $set = $_POST['set'];
 if (isset($_GET['set'])) $set = $_GET['set'];
 
 if ($set=='insert') {
-        $pdo_insere = $conexao_pdo->prepare('INSERT INTO pet (nome_pet, idade_pet, sexo, situacao_pet, descricao_pet, categoria)
-        VALUES (?, ?, ?, ?, ?, ?)');
-        $pdo_insere->execute(array($nome_pet, $idade_pet, $sexo, $situacao_pet, $descricao_pet, $categoria));
+        $pdo_insere = $conexao_pdo->prepare('INSERT INTO pet (nome_pet, idade_pet, sexo, situacao_pet, descricao_pet, data_cadastro, categoria)
+        VALUES (?, ?, ?, ?, ?, ?, ?)');
+        $pdo_insere->execute(array($nome_pet, $idade_pet, $sexo, $situacao_pet, $descricao_pet, $data_cadastro, $categoria));
         sets();
 }/* elseif ($set == 'up') {
         //Executa alteração no registro do cliente

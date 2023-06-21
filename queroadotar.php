@@ -145,11 +145,11 @@
             <br>
             <form action="cliente.php" method="POST">
 
-            <img src="img/cachorrohome.jpg" alt="imgpet" class="img">
+                <img src="img/cachorrohome.jpg" alt="imgpet" class="img">
 
                 <div class="input-group" style="margin-top: 10px">
                     <label class="label">Nome:</label>
-                    <input autocomplete="off" name="nome_pet" id="nome_pet" class="input" type="text">
+                    <input autocomplete="off" name="nome_pet" id="nome_pet" class="input" value="" type="text">
                 </div>
 
                 <div class="input-group" style="margin-top: 10px">
@@ -181,7 +181,65 @@
                     <label class="label">Categoria:</label>
                     <input autocomplete="off" name="categoria" id="categoria" class="input" type="text">
                 </div>
-                <br><br>
+                <br><br><br>
+            </form>
+        </div>
+
+        <div class="containerqueroadotar">
+        <h2 style="text-align: center; justify-content:center;"><u>Informações adicionais</u></h2>
+            <br>
+            <form action="cliente.php" method="POST">
+
+                <label class="label">Reside no mesmo estado que o pet?</label>
+                <div class="input-group" style="margin-top: 10px">
+                <label class="label">Sim
+                    <input autocomplete="off" name="#" id="#" class="opcao" type="radio">
+                </label>
+                <label class="label">Não
+                    <input autocomplete="off" name="#" id="#" class="opcao" type="radio">
+                </label>
+                <br>
+
+                <label class="label">Possui outro pet em casa?</label>
+                <div class="input-group" style="margin-top: 10px">
+                <label class="label">1
+                    <input autocomplete="off" name="#" id="#" class="opcao" type="radio">
+                </label>
+                <label class="label">2
+                    <input autocomplete="off" name="#" id="#" class="opcao" type="radio">
+                </label>
+                <label class="label">3
+                    <input autocomplete="off" name="#" id="#" class="opcao" type="radio">
+                </label>
+                <label class="label">3+
+                    <input autocomplete="off" name="#" id="#" class="opcao" type="radio">
+                </label>
+                <label class="label">Nenhum
+                    <input autocomplete="off" name="#" id="#" class="opcao" type="radio">
+                </label>
+                <br>
+
+                <label class="label">Possui emprego?</label>
+                <div class="input-group" style="margin-top: 10px">
+                <label class="label">Sim
+                    <input autocomplete="off" name="#" id="#" class="opcao" type="radio">
+                </label>
+                <label class="label">Sim, informal
+                    <input autocomplete="off" name="#" id="#" class="opcao" type="radio">
+                </label>
+                <label class="label">Não
+                    <input autocomplete="off" name="#" id="#" class="opcao" type="radio">
+                </label>
+                <br>
+
+                
+                <label class="label">Por qual motivo deseja adotar um pet?</label>
+                    <input autocomplete="off" name="#" id="#" class="motivopet" type="text">
+                    <br><br>
+
+
+
+            </div>
 
                 <button class="botao">
                     <h4>Realizar pedido de adoção</h4>
@@ -189,5 +247,6 @@
                 <br>
             </form>
         </div>
+        
     </body>
 </html>

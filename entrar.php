@@ -131,8 +131,8 @@
         <form action='home.php' method='POST'>
 
             <div class="input-group">
-                <label class="label">Endereço de email</label>
-                <input autocomplete="off" name="email" id="email" class="input" type="email" maxlength="25">
+                <label class="label">Login</label>
+                <input autocomplete="off" name="login" id="login" class="input" type="text" maxlength="25">
             </div>
             <br>
 
